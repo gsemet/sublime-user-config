@@ -1,0 +1,10 @@
+[
+    { "button": "scroll_down", "command": "scroll_lines", "args": {"amount": -8.0 }, "press_command": "" },
+    { "button": "scroll_up", "command": "scroll_lines", "args": {"amount": 8.0 }, "press_command": "" },
+    // Ctrl + Mouse Scroll: Fast scrolling
+    { "button": "scroll_down", "modifiers": ["ctrl"], "command": "scroll_lines", "args": {"amount": -40.0 }, "press_command": "" },
+    { "button": "scroll_up", "modifiers": ["ctrl"], "command": "scroll_lines", "args": {"amount": 40.0 }, "press_command": "" },
+    // Ctrl + Shift + Mouse Scroll: Very fast scrolling
+    { "button": "scroll_down", "modifiers": ["ctrl", "shift"], "command": "scroll_lines", "args": {"amount": -100.0 }, "press_command": "" },
+    { "button": "scroll_up", "modifiers": ["ctrl", "shift"], "command": "scroll_lines", "args": {"amount": 100.0 }, "press_command": "" },
+]
