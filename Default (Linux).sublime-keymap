@@ -1,0 +1,82 @@
+[
+    { "keys": ["f3"], "command": "find_under" },
+    { "keys": ["shift+f3"], "command": "find_under_prev" },
+
+	{ "keys": ["ctrl+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["ctrl++"], "command": "increase_font_size" },
+	{ "keys": ["ctrl+-"], "command": "decrease_font_size" },
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+	{ "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace"} },
+	{ "keys": ["ctrl+h"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+
+	{ "keys": ["ctrl+shift+s"], "command": "save_all" },
+
+    { "keys": ["super+alt+l"], "command": "reindent"},
+
+    { "keys": ["ctrl+²"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+
+    {
+        "keys": [
+            "ctrl+up"
+        ],
+        "args": {
+            "action": "increment_number_by_1"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.increment_number_by_1"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "ctrl+down"
+        ],
+        "args": {
+            "action": "decrement_number_by_1"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.decrement_number_by_1"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "ctrl++shift+up"
+        ],
+        "args": {
+            "action": "increment_number_by_01"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.increment_number_by_01"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "ctrl+shift+down"
+        ],
+        "args": {
+            "action": "decrement_number_by_01"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.decrement_number_by_01"
+            }
+        ]
+    },
+    { "keys": ["ctrl+up"],         "command": "inc_dec_value", "args": { "action": "inc_all" } },
+    { "keys": ["ctrl+down"],       "command": "inc_dec_value", "args": { "action": "dec_all" } },
+
+    { "keys": ["ctrl+shift+up"],       "command": "inc_dec_value", "args": { "action": "inc_max" } },
+    { "keys": ["ctrl+shift+down"],     "command": "inc_dec_value", "args": { "action": "dec_max" } },
+
+    { "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} }
+]

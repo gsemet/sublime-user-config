@@ -1,0 +1,31 @@
+{
+
+   "action_inc_min":    1,
+   "action_dec_min":   -1,
+
+   "action_inc_max":   1,
+   "action_dec_max":  -1,
+
+   "action_inc_all":  1,
+   "action_dec_all": -1,
+   "enums": [
+       ["yes", "no"],
+
+       ["true", "false"],
+       ["True", "False"],
+
+       ["relative", "absolute", "fixed" ],
+       ["top",      "bottom" ],
+       ["left",     "right"  ],
+       ["width",    "height" ],
+       ["margin",   "padding"],
+       ["block",    "none",     "inline", "inline-block"],
+
+       ["h1", "h2", "h3", "h4", "h5", "h6"],
+
+       ["am", "pm"],
+       ["sun", "mon", "tue", "wed", "thu", "fri", "sat"],
+       ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"],
+       ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
+    ]
+}

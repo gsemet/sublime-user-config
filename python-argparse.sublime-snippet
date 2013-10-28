@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+parser = ArgumentParser(description="${1:enter description here}")
+parser.add_argument("-${2:shortcut}", "--${3:long-name}", dest="${4:destination member name}",
+                        help="${5: help message}", required=${6:True/False})
+
+# Process arguments
+args = parser.parse_args(${7:argv})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>argparse</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
