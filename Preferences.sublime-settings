@@ -1,5 +1,4 @@
 {
-	//"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -35,15 +34,16 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Anaconda",
 		"Tomorrow Color Schemes",
-		"Vintage",
+		"SublimePythonIDE",
+		"Python PEP8 Autoformat",
 		"GitGutter",
 		"SublimeSimpleSync",
-		"Python PEP8 Autoformat",
 		"RestructuredText",
-		"SublimePythonIDE",
-		"Better CoffeeScript"
+		"Vintage",
+		"Better CoffeeScript",
+		"Anaconda",
+		"Gist"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,

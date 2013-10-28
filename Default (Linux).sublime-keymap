@@ -78,5 +78,9 @@
     { "keys": ["ctrl+shift+up"],       "command": "inc_dec_value", "args": { "action": "inc_max" } },
     { "keys": ["ctrl+shift+down"],     "command": "inc_dec_value", "args": { "action": "dec_max" } },
 
-    { "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} }
+    { "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+
+
+    { "button": "scroll_down", "command": "scroll_lines", "args": {"amount": -100.0 }, "press_command": "" },
+    { "button": "scroll_up", "command": "scroll_lines", "args": {"amount": 100.0 }, "press_command": "" },
 ]
