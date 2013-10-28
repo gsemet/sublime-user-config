@@ -1,4 +1,6 @@
 sublim-user-confg
 =================
 
-My Sublime Packages/User configuration
+Follow the instruction on this page:
+
+https://sublime.wbond.net/docs/syncing
