@@ -1,0 +1,5 @@
+{
+    "cmd": ["make"],
+    "working_dir": "${folder}",
+    "path": "/usr/local/bin:/usr/local/sbin:$PATH"
+}
