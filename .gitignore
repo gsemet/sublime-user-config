@@ -6,3 +6,5 @@ Package Control.cache
 Package Control.ca-certs
 ColorPicker
 /linters/*
+/linters
+/ColorPicker
