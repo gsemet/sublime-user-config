@@ -1,0 +1,104 @@
+{
+    "global": {
+        "opened": [
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/gsemet/projects/buildbot/prod/txwebservices/txgerrit/utils.py"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/gsemet/projects/buildbot/prod/cactus/cactus/steps/step_utils.py"
+            }
+        ], 
+        "closed": [
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/.config/sublime-text-3/Packages/GotoLastEdit/Default (Linux).sublime-keymap"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/.config/sublime-text-3/Packages/GotoLastEdit/Default (Windows).sublime-keymap"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/.config/sublime-text-3/Packages/User.disabled/Default (Linux).sublime-mousemap"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/projects/dev-tools/sublime3_config/Default (Linux).sublime-keymap"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/projects/dev-tools/sublime3_config/Default (Windows).sublime-keymap"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/projects/buildbot/prod/cactus/cactus/builderfactories/metabuild_factories.py"
+            }
+        ]
+    }, 
+    "/home/gsemet/projects/sublime_projects/buildbot-prod.sublime-project": {
+        "opened": [
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/gsemet/projects/buildbot/prod/txwebservices/txgerrit/utils.py"
+            }, 
+            {
+                "index": 1, 
+                "group": 0, 
+                "filename": "/home/gsemet/projects/buildbot/prod/cactus/cactus/steps/step_utils.py"
+            }
+        ], 
+        "closed": [
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/.config/sublime-text-3/Packages/GotoLastEdit/Default (Linux).sublime-keymap"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/.config/sublime-text-3/Packages/GotoLastEdit/Default (Windows).sublime-keymap"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/.config/sublime-text-3/Packages/User.disabled/Default (Linux).sublime-mousemap"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/projects/dev-tools/sublime3_config/Default (Linux).sublime-keymap"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/projects/dev-tools/sublime3_config/Default (Windows).sublime-keymap"
+            }, 
+            {
+                "index": -1, 
+                "group": -1, 
+                "filename": "/home/gsemet/projects/buildbot/prod/cactus/cactus/builderfactories/metabuild_factories.py"
+            }
+        ]
+    }
+}

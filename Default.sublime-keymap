@@ -1,0 +1,12 @@
+[
+    {"command": "sublime_jedi_goto", "keys": ["f4"],
+        "context": [
+            {"key": "selector", "operator": "equal", "operand":  "source.python - string - comment"}
+        ]
+    },
+    {"command": "sublime_jedi_find_usages", "keys": ["shift+f4"],
+        "context": [
+            {"key": "selector", "operator": "equal", "operand":  "source.python - string - comment"}
+        ]
+    }
+]

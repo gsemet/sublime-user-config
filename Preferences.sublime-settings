@@ -1,4 +1,11 @@
 {
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.python"
+		}
+	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
@@ -35,17 +42,18 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"SFTP",
-		"Better CoffeeScript",
-		"Vintage",
-		"Tomorrow Color Schemes",
-		"Anaconda",
-		"Gist",
-		"GitGutter",
-		"Python PEP8 Autoformat",
 		"SublimeSimpleSync",
+		"Better CoffeeScript",
+		"SFTP",
+		"Tomorrow Color Schemes",
+		"GitGutter",
+		"SublimeCodeIntel",
+		"Anaconda",
+		"SublimePythonIDE",
 		"RestructuredText",
-		"SublimePythonIDE"
+		"Vintage",
+		"Gist",
+		"Python PEP8 Autoformat"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
