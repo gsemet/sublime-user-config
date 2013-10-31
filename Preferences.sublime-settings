@@ -37,7 +37,7 @@
 		"subpixel_antialias",
 		"no_bold"
 	],
-	"font_size": 11,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -53,7 +53,8 @@
 		"RestructuredText",
 		"Vintage",
 		"Gist",
-		"Python PEP8 Autoformat"
+		"Python PEP8 Autoformat",
+		"File History"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
