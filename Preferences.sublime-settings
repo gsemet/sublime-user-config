@@ -18,7 +18,7 @@
 		"*.orig"
 	],
 	"find_selected_text": true,
-	"fold_buttons": false,
+	"fold_buttons": true,
 	"folder_exclude_patterns":
 	[
 		".git",
