@@ -1,6 +1,7 @@
 [
     { "keys": ["f3"], "command": "find_under" },
     { "keys": ["shift+f3"], "command": "find_under_prev" },
+    { "keys": ["command+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 
     { "keys": ["ctrl+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
     { "keys": ["ctrl++"], "command": "increase_font_size" },
