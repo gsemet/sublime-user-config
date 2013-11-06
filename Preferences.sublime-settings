@@ -42,19 +42,19 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"File History",
-		"RestructuredText",
-		"Vintage",
-		"SFTP",
-		"GitGutter",
-		"SublimePythonIDE",
-		"Tomorrow Color Schemes",
 		"SublimeCodeIntel",
-		"Gist",
+		"SFTP",
+		"RestructuredText",
 		"Better CoffeeScript",
-		"Python PEP8 Autoformat",
 		"SublimeSimpleSync",
-		"Anaconda"
+		"GitGutter",
+		"File History",
+		"Gist",
+		"Tomorrow Color Schemes",
+		"Python PEP8 Autoformat",
+		"Anaconda",
+		"SublimePythonIDE",
+		"Vintage"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
@@ -69,6 +69,7 @@
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"vintage_lines.force_mode": true,
 	"word_wrap": true,
 	"wrap_width": 180
 }
