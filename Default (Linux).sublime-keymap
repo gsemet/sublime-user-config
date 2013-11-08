@@ -86,5 +86,10 @@
 
     { "button": "scroll_down", "command": "scroll_lines", "args": {"amount": -100.0 }, "press_command": "" },
     { "button": "scroll_up", "command": "scroll_lines", "args": {"amount": 100.0 }, "press_command": "" },
-    {"keys": ["ctrl+t"], "command": "toggle_setting", "args": {"setting": "vintage_lines.force_mode"}}
+    {"keys": ["ctrl+t"], "command": "toggle_setting", "args": {"setting": "vintage_lines.force_mode"}},
+     {"keys": ["alt+shift+r"], "command": "render_rst", "context":
+          [
+            { "key": "selector", "operator": "equal", "operand": "text.restructuredtext" }
+          ]
+    },
 ]
