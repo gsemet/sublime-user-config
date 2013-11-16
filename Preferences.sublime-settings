@@ -42,19 +42,19 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"GitGutter",
-		"Python PEP8 Autoformat",
 		"SFTP",
-		"Tomorrow Color Schemes",
-		"Better CoffeeScript",
 		"Gist",
+		"SublimeSimpleSync",
+		"Vintage",
+		"GitGutter",
+		"Tomorrow Color Schemes",
+		"Anaconda",
+		"Python PEP8 Autoformat",
+		"SublimeCodeIntel",
 		"RestructuredText",
 		"SublimePythonIDE",
-		"SublimeCodeIntel",
-		"Vintage",
-		"File History",
-		"Anaconda",
-		"SublimeSimpleSync"
+		"Better CoffeeScript",
+		"File History"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
