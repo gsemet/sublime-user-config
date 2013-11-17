@@ -8,3 +8,6 @@ ColorPicker
 /linters/*
 /linters
 /ColorPicker
+
+/.SublimeREPLHistory/*.db
+/*.bak
