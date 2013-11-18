@@ -14,6 +14,9 @@
 
 	{ "keys": ["ctrl+shift+s"], "command": "save_all" },
 
+    { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+
     { "keys": ["super+alt+l"], "command": "reindent"},
 
     { "keys": ["ctrl+²"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
@@ -92,4 +95,5 @@
             { "key": "selector", "operator": "equal", "operand": "text.restructuredtext" }
           ]
     },
+    { "keys": ["ctrl+shift+f"], "command": "pep8_autoformat" }
 ]
