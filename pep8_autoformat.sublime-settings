@@ -16,5 +16,5 @@
     "select": [],
 
     // Maximum line length
-    "max-line-length": 100
+    "max-line-length": 120
 }

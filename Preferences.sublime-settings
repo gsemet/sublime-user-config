@@ -42,20 +42,20 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"RestructuredText",
 		"File History",
+		"Vintage",
+		"SublimeSimpleSync",
+		"Anaconda",
 		"Better CoffeeScript",
 		"Gist",
 		"Pylinter",
-		"Python PEP8 Autoformat",
 		"SFTP",
-		"Tomorrow Color Schemes",
-		"Anaconda",
-		"GitGutter",
 		"SublimeSimpleSync",
 		"Vintage",
 		"SublimePythonIDE",
-		"RestructuredText",
-		"Jedi - Python autocompletion"
+		"Gist",
+		"Nodejs"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
