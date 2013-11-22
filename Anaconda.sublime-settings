@@ -207,7 +207,7 @@
     "use_pylint": false,
 
     // Set this to false to turn pep8 checking off completely
-    "pep8": true,
+    "pep8": false,
 
     /*
         If setted, the given file will be used as configuration for pep8
@@ -231,7 +231,7 @@
     ],
 
     // Maximum line length for pep8
-    "pep8_max_line_length": 79,
+    "pep8_max_line_length": 120,
 
     /*
         You can ignore some of the "undefined name xxx"
