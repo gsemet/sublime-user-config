@@ -1,0 +1,9 @@
+{
+    "completions":
+    [
+        { "trigger": "bash", "contents": ".. code-block:: bash\n\n    ${1:bash command}" },
+        { "trigger": "rust", "contents": ".. code-block:: rust\n\n    ${1:rust source code}" },
+        { "trigger": "python-code", "contents": ".. code-block:: python\n\n    ${1:python sorce code}" },
+        { "trigger": "math", "contents": ":math:`${1:a^2 + b^2 = c^2}`" }
+    ]
+}
