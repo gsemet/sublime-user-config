@@ -93,5 +93,6 @@
             { "key": "selector", "operator": "equal", "operand": "text.restructuredtext" }
           ]
     },
-    { "keys": ["ctrl+shift+f"], "command": "pep8_autoformat" }
+    { "keys": ["ctrl+shift+f"], "command": "pep8_autoformat" },
+    {"command": "anaconda_goto", "keys": ["f4"]}
 ]
