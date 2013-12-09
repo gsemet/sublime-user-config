@@ -42,18 +42,18 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"SFTP",
-		"Vintage",
-		"Jedi - Python autocompletion",
-		"Gist",
-		"File History",
-		"RestructuredText",
-		"GotoLastEdit",
-		"Nodejs",
-		"SublimeCodeIntel",
 		"SublimeSimpleSync",
+		"GotoLastEdit",
+		"Jedi - Python autocompletion",
+		"RestructuredText",
+		"Vintage",
+		"File History",
+		"SublimeCodeIntel",
+		"Nodejs",
+		"Gist",
 		"Better CoffeeScript",
-		"SublimePythonIDE"
+		"SublimePythonIDE",
+		"SFTP"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
