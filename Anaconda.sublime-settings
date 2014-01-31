@@ -204,10 +204,10 @@
 
         **** WARNING ****
     */
-    "use_pylint": false,
+    "use_pylint": true,
 
     // Set this to false to turn pep8 checking off completely
-    "pep8": false,
+    "pep8": true,
 
     /*
         If setted, the given file will be used as configuration for pep8
