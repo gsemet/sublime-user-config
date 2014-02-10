@@ -15,7 +15,7 @@
 
     { "keys": ["super+alt+l"], "command": "reindent"},
 
-    { "keys": ["command+²"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    { "keys": ["command+`"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 
     {
         "keys": [
@@ -81,6 +81,15 @@
 
     { "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 
+    { "keys": ["command+left"], "command": "jump_back" },
+    { "keys": ["command+right"], "command": "jump_forward" },
+
     { "button": "scroll_down", "command": "scroll_lines", "args": {"amount": -100.0 }, "press_command": "" },
-    { "button": "scroll_up", "command": "scroll_lines", "args": {"amount": 100.0 }, "press_command": "" }
+    { "button": "scroll_up", "command": "scroll_lines", "args": {"amount": 100.0 }, "press_command": "" },
+
+    { "keys": ["command+shift+f"], "command": "pep8_autoformat" },
+    { "keys": ["command+alt+c"], "command": "convert_to_camel" },
+    { "keys": ["command+alt+t"], "command": "convert_to_pascal" },
+    { "keys": ["command+alt+u"], "command": "convert_to_snake" },
+    {"command": "anaconda_goto", "keys": ["f4"]}
 ]
