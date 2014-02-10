@@ -85,7 +85,8 @@
 
     { "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 
-    { "keys": ["alt+left"], "command": "last_edit_line" },
+    { "keys": ["alt+left"], "command": "jump_back" },
+    { "keys": ["alt+right"], "command": "jump_forward" },
 
     {"keys": ["ctrl+t"], "command": "toggle_setting", "args": {"setting": "vintage_lines.force_mode"}},
      {"keys": ["alt+shift+r"], "command": "render_rst", "context":
@@ -98,5 +99,4 @@
     { "keys": ["ctrl+alt+t"], "command": "convert_to_pascal" },
     { "keys": ["ctrl+alt+u"], "command": "convert_to_snake" },
     {"command": "anaconda_goto", "keys": ["f4"]},
-    {"command": "anaconda_previous", "keys": ["alt+left"]}
 ]
