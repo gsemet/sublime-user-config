@@ -81,8 +81,15 @@
 
     { "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 
-    { "keys": ["alt+left"], "command": "last_edit_line" },
+    { "keys": ["alt+left"], "command": "jump_back" },
+    { "keys": ["alt+right"], "command": "jump_forward" },
 
     { "button": "scroll_down", "command": "scroll_lines", "args": {"amount": -100.0 }, "press_command": "" },
-    { "button": "scroll_up", "command": "scroll_lines", "args": {"amount": 100.0 }, "press_command": "" }
+    { "button": "scroll_up", "command": "scroll_lines", "args": {"amount": 100.0 }, "press_command": "" },
+
+    { "keys": ["ctrl+shift+f"], "command": "pep8_autoformat" },
+    { "keys": ["ctrl+alt+c"], "command": "convert_to_camel" },
+    { "keys": ["ctrl+alt+t"], "command": "convert_to_pascal" },
+    { "keys": ["ctrl+alt+u"], "command": "convert_to_snake" },
+    {"command": "anaconda_goto", "keys": ["f4"]}
 ]
