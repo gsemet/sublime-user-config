@@ -42,6 +42,7 @@
 		"LESS",
 		"Nodejs",
 		"Pretty JSON",
+		"Pretty YAML",
 		"Pylinter",
 		"Python PEP8 Autoformat",
 		"Restructured Text (RST) Snippets",
