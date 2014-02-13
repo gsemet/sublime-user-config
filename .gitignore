@@ -12,3 +12,4 @@ ColorPicker
 /.SublimeREPLHistory/*.db
 /*.bak
 /FileHistory.json
+*.cache
