@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+try:
+    ${1:pass}
+except Exception as e:
+    ${2:raise}
+${4:else:
+    pass}
+${5:finally:
+    pass}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <!-- <tabTrigger>try</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
