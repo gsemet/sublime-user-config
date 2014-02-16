@@ -1,4 +1,7 @@
 [
+    { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+
     { "keys": ["ctrl+shift+s"], "command": "save_all" },
     { "keys": ["f3"], "command": "find_under" },
     { "keys": ["shift+f3"], "command": "find_under_prev" },
