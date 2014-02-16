@@ -1,4 +1,7 @@
 [
+    { "keys": ["command+shift+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["command+shift+down"], "command": "select_lines", "args": {"forward": true} },
+
     { "keys": ["f3"], "command": "find_under" },
     { "keys": ["shift+f3"], "command": "find_under_prev" },
     { "keys": ["command+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
