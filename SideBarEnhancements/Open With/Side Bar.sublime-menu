@@ -1,0 +1,31 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+            //application glade (GTK3)
+            {
+                "caption": "Glade (Gtk3)",
+                "id": "side-bar-files-open-with-glade-gtk3",
+
+                "command": "side_bar_files_open_with",
+                "args": {
+                                    "paths": [],
+                                    "application": "glade",
+                                    "extensions":"glade"
+                                }
+            },
+			//application glade (GTK2)
+			{
+				"caption": "Glade (Gtk2)",
+				"id": "side-bar-files-open-with-glade-gtk2",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "glade-gtk2",
+									"extensions":"glade"
+								}
+			}
+		]
+	}
+]
