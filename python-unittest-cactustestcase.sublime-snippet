@@ -23,7 +23,7 @@ class Test${1:NameOfTheTestedClass}(CactusTestCase, TxWebserviceStubMixin):
         self.createAllStubs(additionalCfg=additional_cfg)
 
         self.step = UnderTest${1:NameOfTheTestedClass}()
-        self.configureBuild(self.step, additional_props)
+        self.configureBuild(self.step, additionalProps=additional_props)
 
     def tearDown(self):
         self.cleanupAllStubs()
