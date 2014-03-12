@@ -78,5 +78,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"vintage_lines.force_mode": true,
 	"word_wrap": true,
-	"wrap_width": 180
+	"wrap_width": 120
 }
