@@ -7,14 +7,14 @@ from buildbot.status.results import SUCCESS
 
 from cactus.test_utils.cactus_test_case import CactusTestCase
 from cactus.test_utils.step_test_utils import TxWebserviceStubMixin
-from cactus.steps.${2:name_of_the_tested_step_file} import ${1:NameOfTheTestedClass}
+from cactus.steps.${2:name_of_the_tested_step_file} import ${1:NameOfTheTestedStepClass}
 
 
-class UnderTest${1:NameOfTheTestedClass}(${1:NameOfTheTestedClass}):
+class UnderTest${1:NameOfTheTestedStepClass}(${1:NameOfTheTestedStepClass}):
         pass
 
 
-class Test${1:NameOfTheTestedClass}(CactusTestCase, TxWebserviceStubMixin):
+class Test${1:NameOfTheTestedStepClass}(CactusTestCase, TxWebserviceStubMixin):
 
     def setUp(self):
         additional_cfg = {}
@@ -22,7 +22,7 @@ class Test${1:NameOfTheTestedClass}(CactusTestCase, TxWebserviceStubMixin):
 
         self.createAllStubs(additionalCfg=additional_cfg)
 
-        self.step = UnderTest${1:NameOfTheTestedClass}()
+        self.step = UnderTest${1:NameOfTheTestedStepClass}()
         self.configureBuild(self.step, additionalProps=additional_props)
 
     def tearDown(self):
@@ -47,7 +47,8 @@ class Test${1:NameOfTheTestedClass}(CactusTestCase, TxWebserviceStubMixin):
 
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <!-- <tabTrigger>unittestcactustestcase</tabTrigger> -->
+    <tabTrigger>unittestcactustestcase</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
+    <scope>source.python</scope>
+    <description>Cactus Step Unit test</description>
 </snippet>

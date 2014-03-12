@@ -1,10 +1,11 @@
 <snippet>
     <content><![CDATA[
-:ref:`${1:custom label}<${2:reference/anchor name without leading underscore}>`
+def ${1:methodName}(self, ${2:positionalArguments}${3:, keyword=defautValue}):
+    ${4:pass}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>refc</tabTrigger>
+    <tabTrigger>method</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
-    <description>RST custom reference in docstring</description>
+    <description>Method</description>
 </snippet>

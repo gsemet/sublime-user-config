@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:parser}.add_argument('--${2:long-name}', action="${3:store/set_true}", ${4:default=value}, help="${5:one line description}", ${6:required=True})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>argparse-addargument</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Add argument to argparse</description>
+</snippet>

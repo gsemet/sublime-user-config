@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+import logging
+import sys
+
+${1:root_logger} = logging.getLogger()
+${2:out_handler} = logging.StreamHandler(sys.stdout)
+fmt = logging.Formatter("${3:%(asctime)s %(levelname)s: %(message)s}")
+${2:out_handler}.setFormatter(fmt)
+${1:root_logger}.addHandler(${2:out_handler})
+${1:root_logger}.setLevel(${4:logging.DEBUG})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>logging-add-stdout</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Python logging: add stdout logger</description>
+</snippet>

@@ -5,7 +5,8 @@
     ${2:type your code here}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <!-- <tabTrigger>yaml</tabTrigger> -->
+    <tabTrigger>codeblock</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
+    <scope>source.python</scope>
+    <description>RST Code-block</description>
 </snippet>

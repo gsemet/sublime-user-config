@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[
+from twisted.internet import defer
+
+from cactus.test_utils.cactus_test_case import CactusTestCase
+
+
+class Test${1:NameOfTheTestedClass}(CactusTestCase):
+
+    def setUp(self):
+        ${2:pass}
+
+    def tearDown(self):
+        ${3:pass}
+
+    # @CactusTestCase.verboseLogging()
+    @defer.inlineCallbacks
+    def test${4:Nominal}(self):
+        ${5:pass}
+
+    # @CactusTestCase.verboseLogging()
+    @defer.inlineCallbacks
+    def test${6:Failure}(self):
+        ${7:# erroneous case
+        pass}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>unittestcactusstep</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Cactus Class Unit test</description>
+</snippet>

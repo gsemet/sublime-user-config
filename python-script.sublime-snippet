@@ -1,0 +1,41 @@
+<snippet>
+    <content><![CDATA[
+import argparse
+
+
+class ${1:ClassName}(${2:ParentClass}):
+
+    """${3:Docstring of the processing class}"""
+
+    def execute(self, config):
+        '''execute the task using parameters in "config"'''
+        ${7:pass}
+
+
+
+def run():
+    '''I construct the configuration from the command line arguments'''
+
+    description = '${4:description string of the script}'
+    parser = argparse.ArgumentParser(description=description)
+    ${5:parser.add_argument('--output', action="store", help="output name", required=True)}
+
+    config = parser.parse_args()
+
+    ${6:config.other_config = other_value}
+
+    proc = ${1:ClassName}()
+
+    proc.execute(config)
+
+if __name__ == "__main__":
+    run()
+    exit(0)
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>script</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Python script with arguments</description>
+</snippet>

@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-:ref:`${1:custom label}<${2:reference/anchor name without leading underscore}>`
+${1:cactus}Log.debug(${2:statement})
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>refc</tabTrigger>
+    <tabTrigger>debug</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
-    <description>RST custom reference in docstring</description>
+    <description>cactus Log Debug</description>
 </snippet>
