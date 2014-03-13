@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+def __init__(self, ${1:*args, **kwargs}):
+    ${2:super(${3:ClassName}, self).__init__(${1:*args, **kwargs})}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>__init__</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Default __init__ method</description>
+</snippet>
