@@ -1,3 +1,11 @@
 {
-"wrap_width": 120
+    "line_numbers": true,
+    "font_size": 12.0,
+    "wrap_width": 120,
+    "word_wrap": true,
+    "scroll_past_end": true,
+    "draw_centered": true,
+    "margin": 10,
+    "gutter" : true,
+    "highlight_line": true,
 }
