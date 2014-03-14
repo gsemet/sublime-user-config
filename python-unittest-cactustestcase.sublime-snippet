@@ -47,8 +47,8 @@ class Test${1:NameOfTheTestedStepClass}(CactusTestCase, TxWebserviceStubMixin):
 
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>unittestcactustestcase</tabTrigger>
+    <tabTrigger>unittestcactusstep</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
-    <description>Cactus Step Unit test</description>
+    <description>Unit test for a Cactus Step</description>
 </snippet>
