@@ -102,4 +102,5 @@
     { "keys": ["ctrl+alt+t"], "command": "convert_to_pascal" },
     { "keys": ["ctrl+alt+u"], "command": "convert_to_snake" },
     {"command": "anaconda_goto", "keys": ["f4"]},
+    { "keys": ["alt+q"], "command": "wrap_lines_plus" },
 ]

@@ -44,31 +44,31 @@
 	"ignored_packages":
 	[
 		"SublimeLinter",
-		"File History",
 		"CoffeeScriptHaml",
-		"sublimelint",
 		"GitGutter",
-		"SFTP",
-		"GotoLastEdit",
-		"Jedi - Python autocompletion",
 		"Python PEP8 Autoformat",
-		"Pylinter",
-		"Nodejs",
-		"AutoWrap",
-		"SublimeSimpleSync",
-		"SublimePythonIDE",
 		"Vintage",
 		"RestructuredText",
+		"SFTP",
+		"SublimeCodeIntel",
+		"SublimePythonIDE",
+		"Pylinter",
+		"Nodejs",
+		"SublimeSimpleSync",
+		"GotoLastEdit",
+		"File History",
+		"AutoWrap",
 		"Gist",
-		"SublimeCodeIntel"
+		"sublimelint",
+		"Jedi - Python autocompletion"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
 	"preview_on_click": false,
 	"rulers":
 	[
-		120,
-		150
+		100,
+		120
 	],
 	"scroll_past_end": false,
 	"tab_size": 4,
@@ -77,6 +77,6 @@
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_lines.force_mode": true,
-	"word_wrap": true,
-	"wrap_width": 120
+	"word_wrap": false,
+	"wrap_width": 100
 }
