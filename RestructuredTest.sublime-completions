@@ -11,6 +11,7 @@
         { "trigger": "imgc", "contents": ".. image:: ${1:path/to/the/image}\n    :align: center\n" },
         { "trigger": "ref", "contents": ":ref:`${1:reference/anchor name without leading underscore}`" },
         { "trigger": "refc", "contents": ":ref:`${1:custom label}<${2:reference/anchor name without leading underscore}>`" },
-        { "trigger": "anchor", "contents": ".. _${1:reference/anchor name}:\n" }
+        { "trigger": "anchor", "contents": ".. _${1:reference/anchor name}:\n" },
+        { "trigger": "description", "contents": "${1:Item}\n    ${2:description text}.\n\n" },
     ]
 }
