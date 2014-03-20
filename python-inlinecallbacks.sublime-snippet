@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${3:from twisted.internet import defer
+
+}@defer.inlineCallbacks
+def ${1:methodName}(${2:*args, **kwargs}):
+    ${4:yield defer.succeed(0)}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>inlineCallbacks</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Insert InlineCallbacks function</description>
+</snippet>

@@ -1,12 +1,10 @@
 <snippet>
     <content><![CDATA[
-${2:import logging
-
-}${1:cactus}Log = logging.getLogger(__name__)
+print "DBG> ${1:this}"
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>cactuslog</tabTrigger>
+    <tabTrigger>print</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
-    <description>Cactus Log</description>
+    <description>Print debug (simple statement)</description>
 </snippet>
