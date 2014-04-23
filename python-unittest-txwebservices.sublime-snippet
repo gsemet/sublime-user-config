@@ -2,10 +2,10 @@
     <content><![CDATA[
 ${10:from twisted.internet import defer
 
-}from cactus.test_utils.cactus_test_case import CactusTestCase
+}from txwebservices.txtestcase import TxTestCase
 
 
-class Test${1:NameOfTheTestedClass}(CactusTestCase):
+class Test${1:NameOfTheTestedClass}(TxTestCase):
 
     def setUp(self):
         ${2:pass}
@@ -13,12 +13,12 @@ class Test${1:NameOfTheTestedClass}(CactusTestCase):
     def tearDown(self):
         ${3:pass}
 
-    # @CactusTestCase.verboseLogging()
+    # @TxTestCase.verboseLogging()
     @defer.inlineCallbacks
     def test${4:Nominal}(self):
         ${5:# norminal case test}
 
-    # @CactusTestCase.verboseLogging()
+    # @TxTestCase.verboseLogging()
     @defer.inlineCallbacks
     def test${6:Failure}(self):
         ${7:# erroneous case}
