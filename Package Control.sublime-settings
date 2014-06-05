@@ -62,6 +62,7 @@
 		"StringEncode",
 		"sublime-github",
 		"SublimeCodeIntel",
+		"SublimeGit",
 		"sublimelint",
 		"SublimeLinter",
 		"SublimeLinter-coffee",
