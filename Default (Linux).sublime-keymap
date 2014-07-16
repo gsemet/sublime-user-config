@@ -22,6 +22,7 @@
     { "keys": ["ctrl+²"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
     { "keys": ["f12"], "command": "toggle_side_bar" },
     { "keys": ["f11"], "command": "toggle_full_screen" },
+    { "keys": ["ctrl+alt+d"], "command": "find_under_expand_skip" },
     { "keys": ["shift+f11"], "command": "toggle_distraction_free" },
 
     {
