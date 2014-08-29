@@ -6,6 +6,7 @@
         { "trigger": "rust", "contents": ".. code-block:: rust\n\n    ${1:rust source code}" },
         { "trigger": "mysql", "contents": ".. code-block:: mysql\n\n    ${1:MySQL query}" },
         { "trigger": "yaml", "contents": ".. code-block:: yaml\n\n    ${1:YAML trace}" },
+        { "trigger": "json", "contents": ".. code-block:: javascript  # use javascript highlighter for json\n\n    ${1:JSON trace}" },
         { "trigger": "python-code", "contents": ".. code-block:: python\n\n    ${1:python source code}" },
         { "trigger": "math", "contents": ":math:`${1:a^2 + b^2 = c^2}`" },
         { "trigger": "imgc", "contents": ".. image:: ${1:path/to/the/image}\n    :align: center\n" },
