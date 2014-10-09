@@ -102,6 +102,7 @@
     { "keys": ["ctrl+alt+c"], "command": "convert_to_camel" },
     { "keys": ["ctrl+alt+t"], "command": "convert_to_pascal" },
     { "keys": ["ctrl+alt+u"], "command": "convert_to_snake" },
-    {"command": "anaconda_goto", "keys": ["f4"]},
     { "keys": ["alt+q"], "command": "wrap_lines_plus" },
+    // {"keys": ["f4"], "command": "anaconda_goto"},
+    { "keys": ["f4"], "command": "python_goto_definition" },
 ]
