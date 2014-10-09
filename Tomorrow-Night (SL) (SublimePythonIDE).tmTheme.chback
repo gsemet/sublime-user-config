@@ -8,6 +8,40 @@
 	<string>Tomorrow Night</string>
 	<key>settings</key>
 	<array>
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_442222FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#442222FF</string>
+<key>caret</key>
+<string>#FFFFFFFF</string>
+<key>foreground</key>
+<string>#FFFFFFFF</string>
+</dict>
+</dict>
+
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_997722FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#997722FF</string>
+<key>caret</key>
+<string>#FFFFFFFF</string>
+<key>foreground</key>
+<string>#FFFFFFFF</string>
+</dict>
+</dict>
+
+
 		<dict>
 			<key>settings</key>
 			<dict>
@@ -300,6 +334,36 @@
             <dict>
                 <key>foreground</key>
                 <string>#D02000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimePythonIDE Warning</string>
+            <key>scope</key>
+            <string>sublimepythonide.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#EDBA00</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimePythonIDE Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimepythonide.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimePythonIDE Error</string>
+            <key>scope</key>
+            <string>sublimepythonide.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DA2000</string>
             </dict>
         </dict></array>
 	<key>uuid</key>
