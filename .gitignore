@@ -11,7 +11,7 @@ ColorPicker
 
 /.SublimeREPLHistory/*.db
 /*.bak
-/FileHistory.json
+/FileHistory*
 *.cache
 /Tomorrow-Night*.tmTheme
 *.last-run
