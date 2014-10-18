@@ -6,7 +6,7 @@
 			"selector": "source.python"
 		}
 	],
-	"color_scheme": "Packages/User/Tomorrow-Night (SL).tmTheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
@@ -62,7 +62,21 @@
 		"Jedi - Python autocompletion",
 		"Python PEP8 Autoformat",
 		"Gist",
-		"Pylinter"
+		"Pylinter",
+		"Better CoffeeScript",
+		"INI",
+		"Rust",
+		"SQF Language",
+		"STProjectMaker",
+		"StringEncode",
+		"sublime-github",
+		"SublimeLinter-coffee",
+		"SublimePythonIDE",
+		"SyncedSideBar",
+		"Theme - Soda",
+		"Unittest (python)",
+		"WordHighlight",
+		"Wrap Plus"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
