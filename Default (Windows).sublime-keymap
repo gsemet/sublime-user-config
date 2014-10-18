@@ -1,10 +1,8 @@
 [
-    { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
-    { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
-
-    { "keys": ["ctrl+shift+s"], "command": "save_all" },
     { "keys": ["f3"], "command": "find_under" },
     { "keys": ["shift+f3"], "command": "find_under_prev" },
+    { "keys": ["ctrl+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
+    { "keys": ["ctrl+shift+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
 
     { "keys": ["ctrl+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
     { "keys": ["ctrl++"], "command": "increase_font_size" },
@@ -16,9 +14,17 @@
 
     { "keys": ["ctrl+shift+s"], "command": "save_all" },
 
+    { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+
     { "keys": ["super+alt+l"], "command": "reindent"},
 
+    // This changes between windows and linux, ctrl+² doesn't work on windows
     { "keys": ["²"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    { "keys": ["f12"], "command": "toggle_side_bar" },
+    { "keys": ["f11"], "command": "toggle_full_screen" },
+    { "keys": ["ctrl+alt+d"], "command": "find_under_expand_skip" },
+    { "keys": ["shift+f11"], "command": "toggle_distraction_free" },
 
     {
         "keys": [
@@ -87,12 +93,17 @@
     { "keys": ["alt+left"], "command": "jump_back" },
     { "keys": ["alt+right"], "command": "jump_forward" },
 
-    { "button": "scroll_down", "command": "scroll_lines", "args": {"amount": -100.0 }, "press_command": "" },
-    { "button": "scroll_up", "command": "scroll_lines", "args": {"amount": 100.0 }, "press_command": "" },
-
+    {"keys": ["ctrl+t"], "command": "toggle_setting", "args": {"setting": "vintage_lines.force_mode"}},
+     {"keys": ["alt+shift+r"], "command": "render_rst", "context":
+          [
+            { "key": "selector", "operator": "equal", "operand": "text.restructuredtext" }
+          ]
+    },
     { "keys": ["ctrl+shift+f"], "command": "pep8_autoformat" },
     { "keys": ["ctrl+alt+c"], "command": "convert_to_camel" },
     { "keys": ["ctrl+alt+t"], "command": "convert_to_pascal" },
     { "keys": ["ctrl+alt+u"], "command": "convert_to_snake" },
-    {"command": "anaconda_goto", "keys": ["f4"]}
+    { "keys": ["alt+q"], "command": "wrap_lines_plus" },
+    // {"keys": ["f4"], "command": "anaconda_goto"},
+    { "keys": ["f4"], "command": "python_goto_definition" },
 ]
