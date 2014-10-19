@@ -1,0 +1,7 @@
+{
+	"extensions":
+	[
+        "pylintrc",
+		"pep8rc",
+	]
+}
