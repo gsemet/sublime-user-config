@@ -1,3 +1,6 @@
 [submodule "sublime-text-unit-test-runner"]
 	path = sublime-text-unit-test-runner
 	url = https://github.com/Stibbons/sublime-text-unit-test-runner.git
+[submodule "sublime-git-commands"]
+	path = sublime-git-commands
+	url = https://github.com/Stibbons/sublime-git-commands.git
