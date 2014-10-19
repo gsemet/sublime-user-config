@@ -1,0 +1,3 @@
+[submodule "sublime-text-unit-test-runner"]
+	path = sublime-text-unit-test-runner
+	url = https://github.com/Stibbons/sublime-text-unit-test-runner.git
