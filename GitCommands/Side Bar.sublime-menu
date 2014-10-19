@@ -1,0 +1,13 @@
+[
+	{
+        "id": "Git",
+        "caption": "Git",
+		"children":
+		[
+            {
+                "caption": "Git Fetch All",
+                "command": "git_fetch_all",
+            }
+		]
+	}
+]

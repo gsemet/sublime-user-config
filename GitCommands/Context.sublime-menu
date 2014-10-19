@@ -1,0 +1,14 @@
+[
+    {
+        "caption": "-"
+    },
+    {
+        "caption": "Git",
+        "children": [
+            {
+                "caption": "Fetch All",
+                "command": "git_fetch_all"
+            },
+        ]
+    }
+]
