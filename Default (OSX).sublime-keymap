@@ -95,5 +95,52 @@
     { "keys": ["command+alt+c"], "command": "convert_to_camel" },
     { "keys": ["command+alt+t"], "command": "convert_to_pascal" },
     { "keys": ["command+alt+u"], "command": "convert_to_snake" },
-    {"command": "anaconda_goto", "keys": ["f4"]}
+    {"command": "anaconda_goto", "keys": ["f4"]},
+    // Go to left bracket
+    {
+        "keys": ["command+alt+left"],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": true,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "left"}
+            }
+        }
+    },
+    // Go to right bracket
+    {
+        "keys": ["command+alt+right"],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": true,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "right"}
+            }
+        }
+    },
+    // Select text between brackets
+    {
+        "no_outside_adj": true,
+        "keys": ["command+alt+b"],
+        "command": "bh_key",
+        "args":
+        {
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect"
+            }
+        }
+    },
 ]

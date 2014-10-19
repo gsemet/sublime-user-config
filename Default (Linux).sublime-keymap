@@ -105,4 +105,51 @@
     { "keys": ["alt+q"], "command": "wrap_lines_plus" },
     // {"keys": ["f4"], "command": "anaconda_goto"},
     { "keys": ["f4"], "command": "python_goto_definition" },
+    // Go to left bracket
+    {
+        "keys": ["ctrl+alt+left"],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": true,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "left"}
+            }
+        }
+    },
+    // Go to right bracket
+    {
+        "keys": ["ctrl+alt+right"],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": true,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "right"}
+            }
+        }
+    },
+    // Select text between brackets
+    {
+        "no_outside_adj": true,
+        "keys": ["ctrl+alt+b"],
+        "command": "bh_key",
+        "args":
+        {
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect"
+            }
+        }
+    },
 ]
