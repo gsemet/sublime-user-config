@@ -10,6 +10,7 @@
    "action_dec_all": -1,
    "enums": [
        ["yes", "no"],
+       ["Yes", "No"],
 
        ["true", "false"],
        ["True", "False"],
@@ -26,6 +27,7 @@
        ["am", "pm"],
        ["sun", "mon", "tue", "wed", "thu", "fri", "sat"],
        ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"],
-       ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]
+       ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"],
+       ["january", "febuary", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"],
     ]
 }
