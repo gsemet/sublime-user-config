@@ -38,7 +38,6 @@
 		"subpixel_antialias",
 		"no_bold"
 	],
-	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
