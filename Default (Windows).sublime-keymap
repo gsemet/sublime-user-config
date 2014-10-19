@@ -154,4 +154,9 @@
             }
         }
     },
+    // Swap brackets with another type
+    {
+        "keys": ["ctrl+alt+e"],
+        "command": "swap_brackets"
+    },
 ]
