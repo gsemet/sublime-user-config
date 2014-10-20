@@ -72,7 +72,8 @@
 		"SublimeSimpleSync",
 		"Vintage",
 		"sublime-github",
-		"SyncedSideBar"
+		"SyncedSideBar",
+		"Emmet"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
