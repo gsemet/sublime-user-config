@@ -98,7 +98,7 @@
     {"command": "anaconda_goto", "keys": ["f4"]},
     // Go to left bracket
     {
-        "keys": ["command+alt+left"],
+        "keys": ["command+left"],
         "command": "bh_key",
         "args":
         {
@@ -114,7 +114,7 @@
     },
     // Go to right bracket
     {
-        "keys": ["command+alt+right"],
+        "keys": ["command+right"],
         "command": "bh_key",
         "args":
         {
@@ -131,7 +131,7 @@
     // Select text between brackets
     {
         "no_outside_adj": true,
-        "keys": ["command+alt+b"],
+        "keys": ["command+b"],
         "command": "bh_key",
         "args":
         {
@@ -145,7 +145,7 @@
     },
     // Swap brackets with another type
     {
-        "keys": ["command+alt+e"],
+        "keys": ["command+shift+e"],
         "command": "swap_brackets"
     },
 ]
