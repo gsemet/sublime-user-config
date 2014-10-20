@@ -72,7 +72,8 @@
 		"Rust",
 		"Python PEP8 Autoformat",
 		"Unittest (python)",
-		"Anaconda"
+		"Anaconda",
+		"RestructuredText"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
