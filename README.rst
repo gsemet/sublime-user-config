@@ -7,11 +7,14 @@ sublim-user-confg
 
 Follow the instruction on this page:
 
-https://sublime.wbond.net/docs/syncing
+    https://sublime.wbond.net/docs/syncing
 
 
-Manually install ColorHighlighter
-=================================
+Setting up submodules
+=====================
 
-cd Packages/
-git clone https://github.com/Kronuz/ColorHighlighter.git
+This project use submodules. Once you have cloned it, initialize submodules with:
+
+    git submodule update --init --recursive
+
+
