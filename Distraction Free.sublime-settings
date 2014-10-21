@@ -1,7 +1,7 @@
 {
     "line_numbers": true,
     "font_size": 11.0,
-    "wrap_width": 120,
+    "wrap_width": 100,
     "word_wrap": false,
     "scroll_past_end": true,
     "draw_centered": false,
@@ -9,5 +9,6 @@
     "gutter" : true,
     "highlight_line": true,
     "show_menu": false,
-    "show_minimap": true
+    "show_minimap": true,
+    "show_tabs": true
 }
