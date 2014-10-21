@@ -98,7 +98,7 @@
     {"command": "anaconda_goto", "keys": ["f4"]},
     // Go to left bracket
     {
-        "keys": ["command+left"],
+        "keys": ["command+shift+left"],
         "command": "bh_key",
         "args":
         {
@@ -114,7 +114,7 @@
     },
     // Go to right bracket
     {
-        "keys": ["command+right"],
+        "keys": ["command+shift+right"],
         "command": "bh_key",
         "args":
         {
@@ -131,7 +131,7 @@
     // Select text between brackets
     {
         "no_outside_adj": true,
-        "keys": ["command+b"],
+        "keys": ["command+shift+b"],
         "command": "bh_key",
         "args":
         {
@@ -145,7 +145,7 @@
     },
     // Swap brackets with another type
     {
-        "keys": ["command+shift+e"],
+        "keys": ["command+shift+s"],
         "command": "swap_brackets"
     },
     // Auto-pair reverse quote

@@ -109,7 +109,7 @@
 
     // Go to left bracket
     {
-        "keys": ["alt+left"],
+        "keys": ["alt+shift+left"],
         "command": "bh_key",
         "args":
         {
@@ -125,7 +125,7 @@
     },
     // Go to right bracket
     {
-        "keys": ["alt+right"],
+        "keys": ["alt+shift+right"],
         "command": "bh_key",
         "args":
         {
@@ -142,7 +142,7 @@
     // Select text between brackets
     {
         "no_outside_adj": true,
-        "keys": ["alt+b"],
+        "keys": ["alt+shift+b"],
         "command": "bh_key",
         "args":
         {
@@ -156,7 +156,7 @@
     },
     // Swap brackets with another type
     {
-        "keys": ["alt+shift+b"],
+        "keys": ["alt+shift+s"],
         "command": "swap_brackets"
     },
     // Auto-pair reverse quote
