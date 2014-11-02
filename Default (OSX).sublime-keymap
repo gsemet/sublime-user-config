@@ -17,8 +17,9 @@
     { "keys": ["command+shift+s"], "command": "save_all" },
 
     { "keys": ["super+alt+l"], "command": "reindent"},
-    { "keys": ["command+shift+d"], "command": "find_under_expand_skip" },
+    { "keys": ["command+shift+d"], "command": "duplicate_line" },
 
+    { "keys": ["command+shift+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
     { "keys": ["command+`"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 
     {
