@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${3:@defer.inlineCallbacks}
+def testGiven${1:ThisCondition}_Expect${2:SuchBehavior}(self):
+    ${4:pass}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>test_method</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
