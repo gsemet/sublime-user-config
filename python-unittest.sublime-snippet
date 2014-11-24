@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+import unittest
+
+from ${1:package to test} import ${2:class to test}
+
+
+class Test${2:class to test}(unittest.TestCase):
+    def test${3:Nominal}(self):
+        ${4:nominal test case}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>unittest_default</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Unit test for a non twisted class</description>
+</snippet>
