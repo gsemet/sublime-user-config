@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+class ${1:ClassName}(object):
+    '''
+    ${2:document your class here}
+    '''
+    def __init__(self, ${3:*args, **kwargs}):
+        super(${1:ClassName}, self).__init__(${3:*args, **kwargs})
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>class</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
