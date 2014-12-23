@@ -16,5 +16,3 @@ Setting up submodules
 This project use submodules. Once you have cloned it, initialize submodules with:
 
     git submodule update --init --recursive
-
-
