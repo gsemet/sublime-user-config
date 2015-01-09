@@ -1,4 +1,10 @@
 {
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2",
+		"ssl-linux"
+	],
 	"installed_packages":
 	[
 		"Alignment",
@@ -55,6 +61,7 @@
 		"LESS",
 		"LoremIpsum",
 		"Nodejs",
+		"Package Control",
 		"PackageResourceViewer",
 		"Plugin Debugger",
 		"Pretty JSON",
