@@ -9,6 +9,9 @@ ColorPicker
 /linters
 /ColorPicker
 /Color Highlighter*
+/Package Control.sublime-settings
+/Package Control.merged-ca-bundle
+/Package Control.user-ca-bundle
 
 /.SublimeREPLHistory/*.db
 /*.bak
