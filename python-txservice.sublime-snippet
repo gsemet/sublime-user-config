@@ -1,0 +1,60 @@
+<snippet>
+    <content><![CDATA[
+from __future__ import absolute_import
+
+import logging
+
+from xutils.services import api
+from txwebservices.tx_service_base import InvalidServiceConfiguration
+from txwebservices.tx_service_base import TxServiceBase
+
+txLog = logging.getLogger(__name__)
+${2:CAPITALIZED_SERVICE_NAME} = '${1:service_name}'
+
+
+@api.register
+class ${3:ServiceClassName}Service(TxServiceBase):
+    _API_NAME_ = ${2:CAPITALIZED_SERVICE_NAME}
+
+    @staticmethod
+    def checkConfig(newConfig):
+        cfg = deepcopy(newConfig)
+        mandatory = {  # list of mandatory keys
+                     }
+        optional = {  # list of optional keys
+                    }
+        for opt in mandatory:
+            if opt not in cfg:
+                raise InvalidServiceConfiguration("{!r} not provided in configuration for the "
+                                                  "${4:normal name} service."
+                                                  .format(opt))
+            a = cfg.pop(opt)
+            if opt == 'branches':
+                if not isinstance(a, dict):
+                    raise InvalidServiceConfiguration("'branches' should be a 'dict'. Is: {}"
+                                                      .format(type(a)))
+        for opt in optional:
+            # simply pop optional arguments
+            cfg.pop(opt, None)
+        if cfg:
+            raise InvalidServiceConfiguration("Too much arguments for ${4:normal name} service "
+                                              "configuration: {!r}".format(cfg))
+
+    def reconfigService(self, newConfig):
+        ${5:pass}
+
+
+@api.register
+class Fake${3:ServiceClassName}(${3:ServiceClassName}):
+
+    _API_IS_STUB_ = True
+
+    def reconfigService(self):
+        pass
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>txservice</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+     <scope>source.python</scope>
+</snippet>
