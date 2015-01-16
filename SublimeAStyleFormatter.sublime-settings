@@ -1,0 +1,12 @@
+{
+
+    "autoformat_on_save": false,
+    "options_default": {
+        "style": "ansi",
+        "indent-cases": true,
+        "unpad-paren": true,
+        "break-elseifs": true,
+        "add-brackets": true,
+        "add-one-line-brackets": true,
+    }
+}
