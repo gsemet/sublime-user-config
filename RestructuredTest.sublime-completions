@@ -15,5 +15,7 @@
         { "trigger": "refc", "contents": ":ref:`${1:custom label}<${2:reference/anchor name without leading underscore}>`" },
         { "trigger": "anchor", "contents": ".. _${1:reference/anchor name}:\n" },
         { "trigger": "description", "contents": "${1:Item}\n    ${2:description text}.\n\n" },
+        { "trigger": "notes", "contents": ".. note::\n\n    ${1:note}$0\n" },
+        { "trigger": "warnings", "contents": ".. warning::\n\n    ${1:note}$0\n" },
     ]
 }
