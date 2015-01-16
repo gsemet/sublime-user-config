@@ -2,48 +2,46 @@
     <content><![CDATA[
 from twisted.internet import defer
 
-from buildbot.status.results import FAILURE
 from buildbot.status.results import SUCCESS
 
 from cactus.test_utils.cactus_test_case import CactusTestCase
 from cactus.test_utils.step_test_utils import TxWebserviceStubMixin
-from cactus.steps.${2:name_of_the_tested_step_file} import ${1:NameOfTheTestedStepClass}
+from cactus.steps.${1:name_of_the_tested_step_file} import ${2:NameOfTheTestedStepClass}
 
 
-class UnderTest${1:NameOfTheTestedStepClass}(${1:NameOfTheTestedStepClass}):
+class UnderTest${2:NameOfTheTestedStepClass}(${2:NameOfTheTestedStepClass}):
         pass
 
 
-class Test${1:NameOfTheTestedStepClass}(CactusTestCase, TxWebserviceStubMixin):
+class Test${2:NameOfTheTestedStepClass}(CactusTestCase, TxWebserviceStubMixin):
 
     def setUp(self):
         additional_cfg = {}
-        additional_props = {}
-
-        self.createAllStubs(additionalCfg=additional_cfg)
-
-        self.step = UnderTest${1:NameOfTheTestedStepClass}()
-        self.configureBuild(self.step, additionalProps=additional_props)
+        self.createAllStubs(createArtifactory=False,
+                            createBugzilla=False,
+                            createGerrit=False,
+                            createIceScrum=False,
+                            additionalCfg=additional_cfg)
 
     def tearDown(self):
-        self.cleanupAllStubs()
+        self.cleanupAllStubs(cleanArtifactory=False,
+                             cleanBugzilla=False,
+                             cleanGerrit=False,
+                             cleanIceScrum=False,
+                             )
+
+    def _createStep(self):
+        additional_props = {}
+        self.step = UnderTestCheckPendingMergeCommitsStep()
+        self.configureBuild(self.step, additionalProps=additional_props)
 
     # @CactusTestCase.verboseLogging()
     @defer.inlineCallbacks
-    def test${3:Nominal}(self):
-
+    def testGivenSuchCase_ExpectSuccess(self):
+        self._createStep()
         yield self.step.start()
 
         self.assertEqual(self.step.getStepStatus(), SUCCESS)
-
-    # @CactusTestCase.verboseLogging()
-    @defer.inlineCallbacks
-    def test${4:Failure}(self):
-        ${5:# Patch to erroneous case}
-
-        yield self.step.start()
-
-        self.assertEqual(self.step.getStepStatus(), FAILURE)
 
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
