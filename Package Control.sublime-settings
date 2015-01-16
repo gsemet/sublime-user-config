@@ -1,4 +1,7 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_dependencies":
 	[
 		"0_package_control_loader",
@@ -39,6 +42,7 @@
 		"FastSwitch",
 		"File History",
 		"GenerateUUID",
+		"GhostText",
 		"Gist",
 		"Git",
 		"Git Config",
@@ -83,6 +87,7 @@
 		"STProjectMaker",
 		"StringEncode",
 		"sublime-github",
+		"SublimeAStyleFormatter",
 		"SublimeCodeIntel",
 		"SublimeGit",
 		"sublimelint",
