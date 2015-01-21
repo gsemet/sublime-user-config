@@ -2,7 +2,7 @@
 	"auto_complete_triggers":
 	[
 		{
-            "characters": ".",
+			"characters": ".",
 			"selector": "source.python"
 		}
 	],
@@ -12,31 +12,31 @@
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
-        "*.orig",
-        "*.pid",
-        "*.pyc",
-        "*~",
-        ".DS_Store"
+		"*.orig",
+		"*.pid",
+		"*.pyc",
+		"*~",
+		".DS_Store"
 	],
 	"find_selected_text": true,
 	"fold_buttons": true,
 	"folder_exclude_patterns":
 	[
-        "*.egg-info",
-        ".git",
-        ".metadata",
-        ".settings",
-        "__pycache__",
-        "_pasted_code_",
-        "_trial*",
-        "env",
-        "env3",
-        "RemoteSystemsTempFiles"
+		"*.egg-info",
+		".git",
+		".metadata",
+		".settings",
+		"__pycache__",
+		"_pasted_code_",
+		"_trial*",
+		"env",
+		"env3",
+		"RemoteSystemsTempFiles"
 	],
 	"font_options":
 	[
-        "no_bold",
-        "subpixel_antialias"
+		"no_bold",
+		"subpixel_antialias"
 	],
 	"gpu_window_buffer": "true",
 	"highlight_line": true,
