@@ -5,7 +5,7 @@ from twisted.internet import defer
 from buildbot.status.results import SUCCESS
 
 from cactus.test_utils.cactus_test_case import CactusTestCase
-from cactus.test_utils.step_test_utils import TxWebserviceStubMixin
+from cactus.test_utils.step_test_utils import CactusBuildStubMixin
 from cactus.steps.${1:name_of_the_tested_step_file} import ${2:NameOfTheTestedStepClass}
 
 
@@ -13,7 +13,7 @@ class UnderTest${2:NameOfTheTestedStepClass}(${2:NameOfTheTestedStepClass}):
         pass
 
 
-class Test${2:NameOfTheTestedStepClass}(CactusTestCase, TxWebserviceStubMixin):
+class Test${2:NameOfTheTestedStepClass}(CactusTestCase, CactusBuildStubMixin):
 
     def setUp(self):
         additional_cfg = {}
