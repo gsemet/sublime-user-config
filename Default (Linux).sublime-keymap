@@ -4,15 +4,15 @@
     { "keys": ["ctrl+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
     { "keys": ["ctrl+shift+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
 
-	{ "keys": ["ctrl+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-	{ "keys": ["ctrl++"], "command": "increase_font_size" },
-	{ "keys": ["ctrl+-"], "command": "decrease_font_size" },
-	{ "keys": ["alt+up"], "command": "swap_line_up" },
-	{ "keys": ["alt+down"], "command": "swap_line_down" },
-	{ "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace"} },
-	{ "keys": ["ctrl+h"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+    { "keys": ["ctrl+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["ctrl++"], "command": "increase_font_size" },
+    { "keys": ["ctrl+-"], "command": "decrease_font_size" },
+    { "keys": ["alt+up"], "command": "swap_line_up" },
+    { "keys": ["alt+down"], "command": "swap_line_down" },
+    { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace"} },
+    { "keys": ["ctrl+h"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 
-	{ "keys": ["ctrl+shift+s"], "command": "save_all" },
+    { "keys": ["ctrl+shift+s"], "command": "save_all" },
 
     { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
     { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },

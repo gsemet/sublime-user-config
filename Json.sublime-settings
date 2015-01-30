@@ -1,8 +1,8 @@
 {
-	"extensions":
-	[
+    "extensions":
+    [
         "sublime-commands",
         ".bowerrc",
         ".jshintrc",
-	]
+    ]
 }

@@ -1,7 +1,7 @@
 {
-	"extensions":
-	[
+    "extensions":
+    [
         "pylintrc",
-		"pep8rc",
-	]
+        "pep8rc",
+    ]
 }

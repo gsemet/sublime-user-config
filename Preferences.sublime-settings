@@ -1,48 +1,48 @@
 {
-	"auto_complete_triggers":
-	[
-		{
-			"characters": ".",
-			"selector": "source.python"
-		}
-	],
-	"color_scheme": "Packages/User/Tomorrow-Night (SublimePythonIDE).tmTheme",
-	"detect_indentation": false,
-	"draw_white_space": "selection",
-	"ensure_newline_at_eof_on_save": true,
-	"file_exclude_patterns":
-	[
-		"*.orig",
-		"*.pid",
-		"*.pyc",
-		"*~",
-		".DS_Store"
-	],
-	"find_selected_text": true,
-	"fold_buttons": true,
-	"folder_exclude_patterns":
-	[
-		"*.egg-info",
-		".git",
-		".metadata",
-		".settings",
-		"__pycache__",
-		"_pasted_code_",
-		"_trial*",
-		"env",
-		"env3",
-		"RemoteSystemsTempFiles"
-	],
-	"font_options":
-	[
-		"no_bold",
-		"subpixel_antialias"
-	],
-	"gpu_window_buffer": "true",
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
+    "auto_complete_triggers":
+    [
+        {
+            "characters": ".",
+            "selector": "source.python"
+        }
+    ],
+    "color_scheme": "Packages/User/Tomorrow-Night (SublimePythonIDE).tmTheme",
+    "detect_indentation": false,
+    "draw_white_space": "selection",
+    "ensure_newline_at_eof_on_save": true,
+    "file_exclude_patterns":
+    [
+        "*.orig",
+        "*.pid",
+        "*.pyc",
+        "*~",
+        ".DS_Store"
+    ],
+    "find_selected_text": true,
+    "fold_buttons": true,
+    "folder_exclude_patterns":
+    [
+        "*.egg-info",
+        ".git",
+        ".metadata",
+        ".settings",
+        "__pycache__",
+        "_pasted_code_",
+        "_trial*",
+        "env",
+        "env3",
+        "RemoteSystemsTempFiles"
+    ],
+    "font_options":
+    [
+        "no_bold",
+        "subpixel_antialias"
+    ],
+    "gpu_window_buffer": "true",
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
         "Anaconda",
         "AutoWrap",
         "Color Scheme - Nice Blue Soda",
@@ -72,22 +72,22 @@
         "Unittest (python)",
         "Vintage",
         "WordHighlight"
-	],
-	"line_padding_bottom": 0,
-	"line_padding_top": 0,
-	"preview_on_click": false,
-	"rulers":
-	[
-		100,
-		120
-	],
-	"scroll_past_end": false,
-	"tab_size": 4,
-	"theme": "Soda Dark 3.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true,
-	"vintage_lines.force_mode": true,
-	"word_wrap": false,
-	"wrap_width": 100
+    ],
+    "line_padding_bottom": 0,
+    "line_padding_top": 0,
+    "preview_on_click": false,
+    "rulers":
+    [
+        100,
+        120
+    ],
+    "scroll_past_end": false,
+    "tab_size": 4,
+    "theme": "Soda Dark 3.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_automatic_white_space": true,
+    "trim_trailing_white_space_on_save": true,
+    "vintage_lines.force_mode": true,
+    "word_wrap": false,
+    "wrap_width": 100
 }
