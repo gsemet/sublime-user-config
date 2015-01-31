@@ -262,5 +262,12 @@
 				[0, 1, 1, 2], [1, 1, 2, 2]
 			]
 		}
-	}
+	},
+	{ "keys": ["ctrl+g", "s"], "command": "git_status"},
+	{ "keys": ["ctrl+g", "f"], "command": "git_fetch"},
+	{ "keys": ["ctrl+g", "b"], "command": "git_blame"},
+	{ "keys": ["ctrl+g", "d"], "command": "git_diff"},
+	{ "keys": ["ctrl+g", "p", "r"], "command": "git_pull_rebase"},
+	{ "keys": ["ctrl+g", "k"], "command": "git_gitk"},
+	{ "keys": ["ctrl+g", "g"], "command": "git_gui"}
 ]
