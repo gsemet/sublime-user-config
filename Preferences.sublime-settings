@@ -6,7 +6,7 @@
 			"selector": "source.python"
 		}
 	],
-	"color_scheme": "Packages/User/Tomorrow-Night (SublimePythonIDE).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Tomorrow-Night (SublimePythonIDE) (SL).tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
@@ -46,7 +46,6 @@
 		"Anaconda",
 		"AutoWrap",
 		"Color Scheme - Nice Blue Soda",
-		"Emmet",
 		"File History",
 		"GitGutter",
 		"GotoLastEdit",
@@ -64,7 +63,6 @@
 		"sublime-github",
 		"SublimeCodeIntel",
 		"sublimelint",
-		"SublimeLinter",
 		"SublimeReStructuredText",
 		"SublimeSimpleSync",
 		"SyncedSideBar",
