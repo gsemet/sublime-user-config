@@ -255,5 +255,4 @@
     },
 
     { "keys": ["alt+q"], "command": "wrap_lines" },
-    { "keys": ["command+q"], "command": "wrap_lines" },
 ]
