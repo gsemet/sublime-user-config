@@ -1,15 +1,3 @@
-// Trailing Spaces' default settings.
-//
-// In order to tweak the settings, you should NOT edit this file, but instead
-// the user-specific, empty-by-default version under "Preferences / Package
-// Settings / Trailing Spaces / Settings - User".
-//
-// See Trailing Spaces' README for detailled instructions.
 {
-    // By default, Trailing Spaces is "live". It means the trailing spaces
-    // regions will be matched in the background, and highlighted if a color
-    // scope is defined, when the document is opened and edited.
-    // Set to false to disable live matching and highlighting (the deletion
-    // command remains available, so-called "lazy matching").
-    "trailing_spaces_enabled" : false,
+    "trailing_spaces_enabled": false
 }
