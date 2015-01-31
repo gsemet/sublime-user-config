@@ -4,5 +4,6 @@
         "sublime-commands",
         ".bowerrc",
         ".jshintrc",
-    ]
+    ],
+    "translate_tabs_to_spaces": false,
 }
