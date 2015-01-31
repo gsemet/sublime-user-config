@@ -1,8 +1,0 @@
-{
-    "extensions":
-    [
-        "sublime-commands",
-        ".bowerrc",
-        ".jshintrc",
-    ]
-}
