@@ -1,0 +1,20 @@
+[
+    {
+        "keys": [
+            "command+g",
+            "u"
+        ],
+        "command": "shell_command",
+        "args": {
+            "command": "ls -al"
+        }
+    },
+  {
+    /**
+     * Emulate Emacs' M-!
+     */
+
+    "keys": ["alt+shift+2"],
+    "command": "shell_command"
+  }
+]
