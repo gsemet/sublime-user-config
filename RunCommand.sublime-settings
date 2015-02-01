@@ -1,0 +1,13 @@
+{
+    "show_arguments": true,
+    "show_boring_defaults": true,
+	"application_commands": [
+	],
+	"text_commands": [
+        {
+            "name": "ls",
+            "doc": "Repo upload for Buildbot",
+            "args": ["-l"]
+        }
+	]
+}
