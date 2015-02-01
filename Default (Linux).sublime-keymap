@@ -259,7 +259,7 @@
 				[0, 1, 1, 2], [1, 1, 2, 2]
 			]
 		}
-	}
+	},
 	{ "keys": ["ctrl+g", "s"], "command": "git_status"},
 	{ "keys": ["ctrl+g", "f"], "command": "git_fetch"},
 	{ "keys": ["ctrl+g", "b"], "command": "git_blame"},
