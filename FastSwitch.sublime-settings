@@ -1,0 +1,39 @@
+{
+    "Python": [
+        [
+            [
+                "test_",
+                "test"
+            ],
+            [
+                "py"
+            ],
+            [
+                ".",
+                ".."
+            ],
+            []
+        ],
+        [
+            [],
+            [
+                "py"
+            ],
+            [
+                ".",
+                "test",
+                "tests"
+            ],
+            [
+                "test_",
+                "test"
+            ]
+        ]
+    ],
+    // As the value of the Verbosity increase more messages will be printed
+    // -1: Nothing logged
+    //  0: Error messages are printed
+    //  1: Can tell you why no switch occured
+    // 98: Logging when entering a function
+    "verbosity": 3
+}

@@ -267,4 +267,5 @@
 	{ "keys": ["ctrl+g", "p", "r"], "command": "git_pull_rebase"},
 	{ "keys": ["ctrl+g", "k"], "command": "git_gitk"},
 	{ "keys": ["ctrl+g", "g"], "command": "git_gui"}
+    { "keys": ["f1"], "command": "fast_switch"}
 ]
