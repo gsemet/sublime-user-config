@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+from xutils.unittest import XTestCase
+from ${2:module.to.class.to.test} import ${1:ClassToTest}
+
+
+class Test${1:ClassToTest}(XTestCase):
+
+    def setUp(self):
+        pass
+
+    def tearDown(self):
+        pass
+
+    # @XTestCase.verboseLogging()
+    def testNominal(self):
+        ${3:test method}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>unittest-xutils</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <description>Unit test using XUtils.XTestCase</description>
+</snippet>

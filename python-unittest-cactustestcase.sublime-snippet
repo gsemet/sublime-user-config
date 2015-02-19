@@ -32,7 +32,7 @@ class Test${2:NameOfTheTestedStepClass}(CactusTestCase, CactusBuildStubMixin):
 
     def _createStep(self):
         additional_props = {}
-        self.step = UnderTestCheckPendingMergeCommitsStep()
+        self.step = UnderTest${2:NameOfTheTestedStepClass}()
         self.configureBuild(self.step, additionalProps=additional_props)
 
     # @CactusTestCase.verboseLogging()
