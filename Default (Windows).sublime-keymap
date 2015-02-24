@@ -21,6 +21,7 @@
 
 	// This changes between windows and linux, ctrl+² doesn't work on windows
 	{ "keys": ["²"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["f1"], "command": "fast_switch" },
 	{ "keys": ["f12"], "command": "toggle_side_bar" },
 	{ "keys": ["f11"], "command": "toggle_full_screen" },
 	{ "keys": ["ctrl+alt+d"], "command": "find_under_expand_skip" },
