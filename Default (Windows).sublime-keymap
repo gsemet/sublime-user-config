@@ -21,7 +21,6 @@
 
 	// This changes between windows and linux, ctrl+² doesn't work on windows
 	{ "keys": ["²"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
-	{ "keys": ["f1"], "command": "fast_switch" },
 	{ "keys": ["f12"], "command": "toggle_side_bar" },
 	{ "keys": ["f11"], "command": "toggle_full_screen" },
 	{ "keys": ["ctrl+alt+d"], "command": "find_under_expand_skip" },
@@ -308,6 +307,6 @@
 	{ "keys": ["ctrl+g", "p", "r"], "command": "git_pull_rebase"},
 	{ "keys": ["ctrl+g", "k"], "command": "git_gitk"},
 	{ "keys": ["ctrl+g", "g"], "command": "git_gui"},
-	// Workaround for french keyboard AltGr+3 ('#' not more added)
-	{ "keys": ["ctrl+alt+3"], "command": "insert_snippet", "args": {"contents": "#"}}
+	/* restaure the Alt+Gr + 3 to insert '#', which has been disabled by 'Base Encode' plugin */
+	{ "keys": ["ctrl+alt+3"], "command": "insert_snippet", "args": {"contents": "#"}},
 ]
