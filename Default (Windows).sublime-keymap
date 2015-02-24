@@ -307,5 +307,7 @@
 	{ "keys": ["ctrl+g", "d"], "command": "git_diff"},
 	{ "keys": ["ctrl+g", "p", "r"], "command": "git_pull_rebase"},
 	{ "keys": ["ctrl+g", "k"], "command": "git_gitk"},
-	{ "keys": ["ctrl+g", "g"], "command": "git_gui"}
+	{ "keys": ["ctrl+g", "g"], "command": "git_gui"},
+	// Workaround for french keyboard AltGr+3 ('#' not more added)
+	{ "keys": ["ctrl+alt+3"], "command": "insert_snippet", "args": {"contents": "#"}}
 ]
