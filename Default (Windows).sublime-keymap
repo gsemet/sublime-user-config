@@ -306,5 +306,7 @@
 	{ "keys": ["ctrl+g", "d"], "command": "git_diff"},
 	{ "keys": ["ctrl+g", "p", "r"], "command": "git_pull_rebase"},
 	{ "keys": ["ctrl+g", "k"], "command": "git_gitk"},
-	{ "keys": ["ctrl+g", "g"], "command": "git_gui"}
+	{ "keys": ["ctrl+g", "g"], "command": "git_gui"},
+	/* restaure the Alt+Gr + 3 to insert '#', which has been disabled by 'Base Encode' plugin */
+	{ "keys": ["ctrl+alt+3"], "command": "insert_snippet", "args": {"contents": "#"}},
 ]
