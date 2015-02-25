@@ -91,6 +91,7 @@
 		"SublimeLinter-coffee",
 		"SublimeLinter-contrib-rustc",
 		"SublimeLinter-cppcheck",
+		"SublimeLinter-jshint",
 		"SublimeLinter-jsl",
 		"SublimePythonIDE",
 		"SublimeREPL",
