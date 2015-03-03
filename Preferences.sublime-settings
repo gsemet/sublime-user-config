@@ -1,17 +1,13 @@
 {
-	"auto_complete_triggers":
-	[
-		{
-			"characters": ".",
-			"selector": "source.python"
-		}
-	],
+	"auto_complete_triggers": [{
+		"characters": ".",
+		"selector": "source.python"
+	}],
 	"color_scheme": "Packages/User/SublimeLinter/Tomorrow-Night (SublimePythonIDE) (SL).tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
-	"file_exclude_patterns":
-	[
+	"file_exclude_patterns": [
 		"*.orig",
 		"*.pid",
 		"*.pyc",
@@ -20,8 +16,7 @@
 	],
 	"find_selected_text": true,
 	"fold_buttons": true,
-	"folder_exclude_patterns":
-	[
+	"folder_exclude_patterns": [
 		"*.egg-info",
 		".git",
 		".metadata",
@@ -33,16 +28,14 @@
 		"env3",
 		"RemoteSystemsTempFiles"
 	],
-	"font_options":
-	[
+	"font_options": [
 		"no_bold",
 		"subpixel_antialias"
 	],
 	"gpu_window_buffer": "true",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
+	"ignored_packages": [
 		"Anaconda",
 		"Color Scheme - Nice Blue Soda",
 		"CSS",
@@ -73,8 +66,7 @@
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
 	"preview_on_click": false,
-	"rulers":
-	[
+	"rulers": [
 		100,
 		120
 	],
