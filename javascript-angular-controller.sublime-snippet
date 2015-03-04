@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+
+angular.module('${1:module name}').controller('${2:ControllerName}', ['\$scope'${3:, '\$dependencyInjection'}, function(\$scope${3:, \$dependency injection}) {
+        ${5:// code}
+    }
+]);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>controller Angular</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>Full Ng Controllar</description>
+</snippet>

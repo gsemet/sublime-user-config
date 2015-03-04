@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+\$scope.${1:functionName} = function(${2:arg}) {
+    ${3:// body...}
+};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>scope_func</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>Scope Function for Angular</description>
+</snippet>
