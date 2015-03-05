@@ -1,10 +1,13 @@
 <snippet>
     <content><![CDATA[
-console.log("${1:variable name} = " + JSON.stringify(${1:variable name}));
+for (var i = ${1:collection}.length - 1; i >= 0; i--) {
+    var ${2:item} = ${1:collection}[i];
+    ${3:code}
+};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>log</tabTrigger>
+    <tabTrigger>for</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
-    <description>console.log</description>
+    <description>Complete For Each</description>
 </snippet>
