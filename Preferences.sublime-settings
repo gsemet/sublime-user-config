@@ -1,8 +1,10 @@
 {
-	"auto_complete_triggers": [{
-		"characters": ".",
-		"selector": "source.python"
-	}],
+	"auto_complete_triggers": [
+		{
+			"characters": ".",
+			"selector": "source.python"
+		}
+	],
 	"color_scheme": "Packages/User/SublimeLinter/Tomorrow-Night (SublimePythonIDE) (SL).tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": "selection",
