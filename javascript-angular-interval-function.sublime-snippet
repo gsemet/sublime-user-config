@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+${1:// inject "\$interval" in your controller}
+var stop;
+\$scope.${2:refresh} = function() {
+  if (angular.isDefined(stop)) return;
+
+  stop = \$interval(function() {
+    console.log("execute ${2:refresh}");
+  }, ${3:1000});
+};
+// remove this line if you don't want to start refresh immediately
+\$scope.${2:refresh}();
+
+\$scope.stop${2:refresh} = function() {
+  if (angular.isDefined(stop)) {
+    \$interval.cancel(stop);
+    stop = undefined;
+  }
+};
+
+\$scope.$on('$destroy', function() {
+  // Make sure that the interval is destroyed too
+  \$scope.stop${2:refresh}();
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>interval-function</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>Angular Inverval</description>
+</snippet>

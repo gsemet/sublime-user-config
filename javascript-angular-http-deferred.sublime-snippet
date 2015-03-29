@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+var deferred = \$q.defer();
+
+\$http.get("${1:http://url/to/rest}").then(function(result) {
+  console.log("${2:request sent:}" +  + JSON.stringify(result.data));
+
+  deferred.resolve(result.data);
+}, function(error) {
+  console.log("error = " + JSON.stringify(error));
+  deferred.reject(error);
+});
+return deferred.promise;
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>http-deferred</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>Http deferred</description>
+</snippet>
