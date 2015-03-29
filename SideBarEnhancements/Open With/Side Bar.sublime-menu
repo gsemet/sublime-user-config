@@ -1,18 +1,18 @@
 [
-	{"id": "side-bar-files-open-with",
-		"children":
-		[
+	{
+		"id": "side-bar-files-open-with",
+		"children": [
             //application glade (GTK3)
-            {
-                "caption": "Glade (Gtk3)",
-                "id": "side-bar-files-open-with-glade-gtk3",
+			{
+				"caption": "Glade (Gtk3)",
+				"id": "side-bar-files-open-with-glade-gtk3",
 
-                "command": "side_bar_files_open_with",
-                "args": {
-                                    "paths": [],
-                                    "application": "glade",
-                                    "extensions":"glade"
-                                }
+				"command": "side_bar_files_open_with",
+				"args": {
+					"paths": [],
+					"application": "glade",
+					"extensions": "glade"
+				}
             },
 			//application glade (GTK2)
 			{
@@ -21,10 +21,21 @@
 
 				"command": "side_bar_files_open_with",
 				"args": {
-									"paths": [],
-									"application": "glade-gtk2",
-									"extensions":"glade"
-								}
+					"paths": [],
+					"application": "glade-gtk2",
+					"extensions": "glade"
+				}
+			},
+			{
+				"caption": "poedit",
+				"id": "side-bar-files-open-with-poedit",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+					"paths": ["D:\\Programs\\Poedit\\bin"],
+					"application": "poedit.exe",
+					"extensions": "po"
+				}
 			}
 		]
 	}
