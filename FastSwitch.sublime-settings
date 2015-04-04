@@ -1,99 +1,34 @@
 {
-	"Python": [
-		[
-			[
-				"test_",
-				"test"
-			],
-			[
-				"py"
-			],
-			[
-				"",
-				".."
-			],
-			[]
-		],
-		[
-			[],
-			[
-				"py"
-			],
-			[
-				"",
-				"test",
-				"tests"
-			],
-			[
-				"test_",
-				"test"
-			]
-		]
-	],
+	"C++": [
+		     [[".cpp"], [".", "src"]],
+		     [["hpp"], [".", "include"]]
+	       ],
 	"JavaScript": [
-		[
-			[],
-			[
-				".controller.js",
-				".js",
-			],
-			[
-				"",
-			],
-			[
-				""
-			]
-		],
-		[
-			[],
-			[
-				".template.html",
-				".html",
-			],
-			[
-				"",
-			],
-			[
-				"",
-			]
-		]
-	],
+	                [[".controller.js"], ["."]],
+	                [[".template.html"], ["."]],
+	                [[".service.js"], ["."]],
+	                [[".directive.js"], ["."]],
+	                [[".less"], ["."]],
+	              ],
 	"HTML": [
-		[
-			[],
-			[
-				".template.html",
-				".html",
-			],
-			[
-				"",
-			],
-			[
-				""
-			]
-		],
-		[
-			[],
-			[
-				".controller.js",
-				".js",
-			],
-			[
-				"",
-			],
-			[
-				"",
-			]
-		]
+	          [[".controller.js"], ["."]],
+	          [[".template.html"], ["."]],
+	          [[".service.js"], ["."]],
+	          [[".directive.js"], ["."]],
+	          [[".less"], ["."]],
+	        ],
+	"LESS": [
+	          [[".controller.js"], ["."]],
+	          [[".template.html"], ["."]],
+	          [[".service.js"], ["."]],
+	          [[".directive.js"], ["."]],
+	          [[".less"], ["."]],
+	        ],
+	"Python": [
+	            [[".py"], [".", ".."]],
+	            [[".py"], [".", "./test", "./tests"], {
+			"prefixes": ["test_", "test"]
+		}]
 	],
-	// "mode_Y": { ["prefix_to_remove_A1"], ["ext_A1, ext_A2"], ["directory_A1", "directory_A2"], ["prefix_A1"] },
-	//             ["prefix_to_remove_A1"], ["ext_B1", "ext_B2"], ["directory_B1", ""directory_B2""], ["prefix_A1"]
-	//           }
-
-	// As the value of the Verbosity increase more messages will be printed
-	// -1: Nothing logged
-	//  0: Error messages are printed
-	//  1: Can tell you why no switch occured
-	// 98: Logging when entering a function
 	"verbosity": 51
 }
