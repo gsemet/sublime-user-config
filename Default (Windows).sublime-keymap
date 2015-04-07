@@ -601,5 +601,11 @@
 		"keys": ["shift+f2"],
 		"command": "side_bar_move"
 	},
-
+	{
+		"keys": ["alt+ctrl+6"],
+		"command": "insert_snippet",
+		"args": {
+			"contents": "|"
+		}
+	},
 ]
