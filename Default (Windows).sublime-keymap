@@ -589,23 +589,28 @@
 		"args": {
 			"contents": "#"
 		}
-	}, {
-		"keys": ["ctrl+shift+g"],
-		"command": "google_search_any"
 	},
-	{
-		"keys": ["f2"],
-		"command": "side_bar_rename"
-	},
-	{
-		"keys": ["shift+f2"],
-		"command": "side_bar_move"
-	},
+	/* restaure the Alt+Gr + 6 to insert '|', which has been disabled by 'Base Encode' plugin */
 	{
 		"keys": ["alt+ctrl+6"],
 		"command": "insert_snippet",
 		"args": {
 			"contents": "|"
 		}
+	}, {
+		"keys": ["ctrl+shift+g"],
+		"command": "google_search_any"
+	}, {
+		"keys": ["f1"],
+		"command": "fast_switch"
+	}, {
+		"keys": ["f2"],
+		"command": "side_bar_rename"
+	}, {
+		"keys": ["shift+f2"],
+		"command": "side_bar_move"
+	}, {
+		"keys": ["ctrl+shift+f2"],
+		"command": "side_bar_duplicate"
 	},
 ]

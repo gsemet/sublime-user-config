@@ -627,5 +627,9 @@
 	{
 		"keys": ["shift+f2"],
 		"command": "side_bar_move"
+	},
+	{
+		"keys": ["ctrl+shift+f2"],
+		"command": "side_bar_duplicate"
 	}
 ]

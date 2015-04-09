@@ -497,7 +497,10 @@
 		"keys": ["command+g", "g"],
 		"command": "git_gui"
 	},
-
+	{
+		"keys": ["f1"],
+		"command": "fast_switch"
+	},
 	{
 		"keys": ["f2"],
 		"command": "side_bar_rename"
@@ -505,5 +508,9 @@
 	{
 		"keys": ["shift+f2"],
 		"command": "side_bar_move"
+	},
+	{
+		"keys": ["ctrl+shift+f2"],
+		"command": "side_bar_duplicate"
 	}
 ]
