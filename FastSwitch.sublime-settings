@@ -1,34 +1,9 @@
 {
-	"C++": [
-		     [[".cpp"], [".", "src"]],
-		     [["hpp"], [".", "include"]]
-	       ],
-	"JavaScript": [
-	                [[".controller.js"], ["."]],
-	                [[".template.html"], ["."]],
-	                [[".service.js"], ["."]],
-	                [[".directive.js"], ["."]],
-	                [[".less"], ["."]],
-	              ],
-	"HTML": [
-	          [[".controller.js"], ["."]],
-	          [[".template.html"], ["."]],
-	          [[".service.js"], ["."]],
-	          [[".directive.js"], ["."]],
-	          [[".less"], ["."]],
-	        ],
-	"LESS": [
-	          [[".controller.js"], ["."]],
-	          [[".template.html"], ["."]],
-	          [[".service.js"], ["."]],
-	          [[".directive.js"], ["."]],
-	          [[".less"], ["."]],
-	        ],
 	"Python": [
-	            [[".py"], [".", ".."]],
+	            [[".py"], [".", "..", ""]],
 	            [[".py"], [".", "./test", "./tests"], {
 			"prefixes": ["test_", "test"]
 		}]
 	],
-	"verbosity": 51
+	"verbosity": 100
 }
