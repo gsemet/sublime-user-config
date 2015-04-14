@@ -6,35 +6,35 @@
 	// You can have multiple hosts.
 	// Only one should be marked as "main", the plugin will choose the first
 	// if no "main" servers are found, the plugin will choose the last in the list
-	"strsync.hosts" : [
+	"strsync.hosts": [
 		{
 			// hostname for your remote files
-            "remote_host" : "tldlab231.tl.intel.com",
+			"remote_host": "",
 			// username in remote server.
-            "remote_user" : "gsemet",
-            // path in remote server. Mandatory
-            "remote_path" : "/home/gsemet/projects/buildbot/main",
-            // if this is the "main" server, used in remote-to-local sync
-            "main"		  : true,
-            "excludes" : []
+			"remote_user": "gsemet",
+			// path in remote server. Mandatory
+			"remote_path": "/home/gsemet/projects/buildbot/main",
+			// if this is the "main" server, used in remote-to-local sync
+			"main": true,
+			"excludes": []
         }
 	],
 	// local path where your work files are located
-    "strsync.local_path" : "C:\\Users\\gsemet\\Documents\\Intel\\Projects\\cactus\\main",
-    // compare remote/local git hashes to make sure you don't overwrite remote files
-    "strsync.check_remote_git" : false,
-    // what do you want to exclude from *all* syncs? usual file patterns.
-    "strsync.excludes" : [],
-    // do you want to rsync over ssh. If you're using a remote server, you
-    // really should use ssh...
-    "strsync.use_ssh"           : true,
-    // defines if the authoritative copy copy is in the remote host. If so,
-    // syncing the tree will run from the host to local, deleting the local
-    // files which aren't in the master.
-    // if false, the local is the master, and will be considered the
-    // authoritative copy
-    "strsync.remote_is_master"  : true,
-    // if we should delete files not on the master
-    "strsync.delete_slave"      : true,
+	"strsync.local_path": "",
+	// compare remote/local git hashes to make sure you don't overwrite remote files
+	"strsync.check_remote_git": false,
+	// what do you want to exclude from *all* syncs? usual file patterns.
+	"strsync.excludes": [],
+	// do you want to rsync over ssh. If you're using a remote server, you
+	// really should use ssh...
+	"strsync.use_ssh": true,
+	// defines if the authoritative copy copy is in the remote host. If so,
+	// syncing the tree will run from the host to local, deleting the local
+	// files which aren't in the master.
+	// if false, the local is the master, and will be considered the
+	// authoritative copy
+	"strsync.remote_is_master": true,
+	// if we should delete files not on the master
+	"strsync.delete_slave": true,
 
 }
