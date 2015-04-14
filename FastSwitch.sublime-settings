@@ -5,5 +5,33 @@
 			"prefixes": ["test_", "test"]
 		}]
 	],
+	"JavaScript": [
+	                [[".controller.js"], ["."]],
+	                [[".template.html"], ["."]],
+	                [[".service.js"], ["."]],
+	                [[".css"], ["."]],
+	                [[".less"], ["."]]
+	],
+	"HTML": [
+	          [[".controller.js"], ["."]],
+	          [[".template.html"], ["."]],
+	          [[".service.js"], ["."]],
+	          [[".css"], ["."]],
+	          [[".less"], ["."]]
+	],
+	"LESS": [
+	          [[".controller.js"], ["."]],
+	          [[".template.html"], ["."]],
+	          [[".service.js"], ["."]],
+	          [[".css"], ["."]],
+	          [[".less"], ["."]]
+	],
+	"CSS": [
+	          [[".controller.js"], ["."]],
+	          [[".template.html"], ["."]],
+	          [[".service.js"], ["."]],
+	          [[".css"], ["."]],
+	          [[".less"], ["."]]
+	],
 	"verbosity": 100
 }
