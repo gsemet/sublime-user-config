@@ -17,16 +17,16 @@ class Test${2:NameOfTheTestedStepClass}(CactusTestCase, CactusBuildStubMixin):
 
     def setUp(self):
         additional_cfg = {}
-        self.createAllStubs(createArtifactory=False,
-                            createBugzilla=False,
-                            createIceScrum=False,
-                            additionalCfg=additional_cfg)
+        return self.createAllStubs(createArtifactory=False,
+                                   createBugzilla=False,
+                                   createIceScrum=False,
+                                   additionalCfg=additional_cfg)
 
     def tearDown(self):
-        self.cleanupAllStubs(cleanArtifactory=False,
-                             cleanBugzilla=False,
-                             cleanIceScrum=False,
-                             )
+        return self.cleanupAllStubs(cleanArtifactory=False,
+                                    cleanBugzilla=False,
+                                    cleanIceScrum=False,
+                                    )
 
     def _createStep(self):
         additional_props = {}
