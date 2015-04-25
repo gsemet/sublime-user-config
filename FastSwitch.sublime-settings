@@ -7,28 +7,32 @@
 	],
 	"JavaScript": [
 	                [[".controller.js"], ["."]],
-	                [[".template.html"], ["."]],
+	                [[".directive.js"], ["."]],
 	                [[".service.js"], ["."]],
 	                [[".css"], ["."]],
-	                [[".less"], ["."]]
+	                [[".less"], ["."]],
+	                [[".template.html"], ["."]],
 	],
 	"HTML": [
 	          [[".controller.js"], ["."]],
-	          [[".template.html"], ["."]],
+	          [[".directive.js"], ["."]],
 	          [[".service.js"], ["."]],
 	          [[".css"], ["."]],
-	          [[".less"], ["."]]
+	          [[".less"], ["."]],
+	          [[".template.html"], ["."]]
 	],
 	"LESS": [
-	          [[".controller.js"], ["."]],
 	          [[".template.html"], ["."]],
+	          [[".controller.js"], ["."]],
+	          [[".directive.js"], ["."]],
 	          [[".service.js"], ["."]],
 	          [[".css"], ["."]],
 	          [[".less"], ["."]]
 	],
 	"CSS": [
-	          [[".controller.js"], ["."]],
 	          [[".template.html"], ["."]],
+	          [[".controller.js"], ["."]],
+	          [[".directive.js"], ["."]],
 	          [[".service.js"], ["."]],
 	          [[".css"], ["."]],
 	          [[".less"], ["."]]

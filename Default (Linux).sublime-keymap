@@ -631,5 +631,9 @@
 	{
 		"keys": ["ctrl+shift+f2"],
 		"command": "side_bar_duplicate"
+	},
+	{
+		"keys": ["ctrl+shift+c"],
+		"command": "color_pick"
 	}
 ]
