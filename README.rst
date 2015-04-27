@@ -28,10 +28,12 @@ Note: it is advised to fork this projec to save your own settings
 
 * Sublime will automatically install new plugins.
 
-* Several crash might occurs. Just keep on restarting sublime when frozen
+* Sublime might look ugly. This is because the file preference refers to a theme that is not installed yet. Just let Sublime install missing themes and plugins automatically.
+
+* Several crashes or hangs might occurs. Just keep on restarting sublime when frozen.
 
 * settings files might be rewritten. Execute git reset to reset to the latest version commited
-  and restart sublime.
+  and restart sublime. It will retry again and again to install all missing plugins.
 
     git reset --hard HEAD
 
