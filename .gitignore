@@ -17,10 +17,8 @@ ColorPicker
 /*.bak
 /FileHistory*
 *.cache
-/Tomorrow-Night*.tmTheme
 *.last-run
 /Colorsublime/themes
-/*.tmTheme
 /HTML/HTML.tmLanguage
 /HTML/sublimelinter.version
 /Rails/HTML (Rails).tmLanguage
