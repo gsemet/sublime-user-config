@@ -28,7 +28,8 @@ Note: it is advised to fork this projec to save your own settings
 
 * Sublime will automatically install new plugins.
 
-* Sublime might look ugly. This is because the file preference refers to a theme that is not installed yet. Just let Sublime install missing themes and plugins automatically.
+* Sublime might look ugly. This is because the file preference refers to a theme that is not
+  installed yet. Just let Sublime install missing themes and plugins automatically.
 
 * Several crashes or hangs might occurs. Just keep on restarting sublime when frozen.
 
@@ -42,3 +43,13 @@ Note: it is advised to fork this projec to save your own settings
 
 Advice: Commit your change in the settings like you would when developing a software. It will
 be very useful in case of plugin crash, freeze, etc. Settings are software too!!!
+
+Update advice
+=============
+
+* Don't auto format sublime-settings files. Sublime has its own formatting parameter enforced
+
+* Take care of keeping the "ignored_packages" keys inside "Preferences.sublime-settings" **sorted**.
+  Yes, edit your file and sort this list with Ctrl+P + "sort". Each time Sublime installs or Update
+  a plugin, it reorder this list. As result, you will always see "Preferences.sublime-settings"
+  updated...
