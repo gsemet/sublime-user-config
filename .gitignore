@@ -26,3 +26,6 @@ ColorPicker
 /EasyDiff/
 /EasyDiff/*
 Gist.sublime-settings
+/EasyDiff/Tab Context.sublime-menu
+/EasyDiff/Context.sublime-menu
+/EasyDiff/Side Bar.sublime-menu
