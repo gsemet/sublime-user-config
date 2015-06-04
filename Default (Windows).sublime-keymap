@@ -126,7 +126,7 @@
 		}]
 	}, {
 		"keys": [
-			"ctrl++shift+up"
+			"ctrl+shift+up"
 		],
 		"args": {
 			"action": "increment_number_by_01"
@@ -147,13 +147,13 @@
 			"key": "emmet_action_enabled.decrement_number_by_01"
 		}]
 	}, {
-		"keys": ["ctrl+up"],
+		"keys": ["ctrl+down"],
 		"command": "inc_dec_value",
 		"args": {
 			"action": "inc_all"
 		}
 	}, {
-		"keys": ["ctrl+down"],
+		"keys": ["ctrl+up"],
 		"command": "inc_dec_value",
 		"args": {
 			"action": "dec_all"
