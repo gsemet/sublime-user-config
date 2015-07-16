@@ -512,5 +512,9 @@
 	{
 		"keys": ["ctrl+shift+f2"],
 		"command": "side_bar_duplicate"
+	},
+	{
+		"keys": ["ctrl+shift+d"],
+		"command": "cycle_through_regions"
 	}
 ]

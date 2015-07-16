@@ -616,5 +616,9 @@
 	{
 		"keys": ["ctrl+shift+c"],
 		"command": "color_pick"
+	},
+	{
+		"keys": ["ctrl+shift+d"],
+		"command": "cycle_through_regions"
 	}
 ]
