@@ -6,7 +6,7 @@
 			"selector": "source.python"
 		}
 	],
-	"color_scheme": "Packages/User/Monokai Gravity (SL) (SublimePythonIDE).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Flatgrammer (SL).tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
@@ -75,15 +75,20 @@
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
 	"preview_on_click": false,
+	"quick_panel_small": true,
 	"rulers":
 	[
 		100,
 		120
 	],
 	"scroll_past_end": false,
+	"sidebar_size_12": false,
+	"sidebar_size_13": false,
+	"sidebar_size_14": true,
 	"tab_height_short": true,
 	"tab_size": 4,
-	"theme": "Gravity.sublime-theme",
+	"tabs_small": false,
+	"theme": "Flatgrammer.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
