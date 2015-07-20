@@ -6,7 +6,7 @@
 			"selector": "source.python"
 		}
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Flatgrammer (SL).tmTheme",
+	"color_scheme": "Packages/User/Flatgrammer (SL) (SublimePythonIDE).tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
