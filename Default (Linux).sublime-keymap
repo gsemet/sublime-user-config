@@ -637,7 +637,11 @@
 		"command": "color_pick"
 	},
 	{
-		"keys": ["ctrl+shift+d"],
+		"keys": ["ctrl+shift+g"],
+		"command": "google_search_any"
+	}
+	{
+		"keys": ["ctrl+alt+d"],
 		"command": "cycle_through_regions"
 	}
 ]
