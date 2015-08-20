@@ -629,7 +629,7 @@
 		"command": "color_pick"
 	},
 	{
-		"keys": ["ctrl+shift+d"],
+		"keys": ["ctrl+alt+shift+d"],
 		"command": "cycle_through_regions"
 	}
 ]
