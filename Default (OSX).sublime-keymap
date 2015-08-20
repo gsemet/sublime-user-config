@@ -238,8 +238,16 @@
 		"command": "convert_to_snake"
 	},
 	{
-		"command": "anaconda_goto",
-		"keys": ["f4"]
+		"keys": ["f4"],
+		"command": "anaconda_goto"
+	},
+	{
+		"keys": ["command+f4"],
+		"command": "anaconda_find_usages"
+	},
+	{
+		"keys": ["ctrl+f4"],
+		"command": "anaconda_doc"
 	},
 	// Go to left bracket
 	{
