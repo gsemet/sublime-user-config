@@ -9,6 +9,7 @@
 	                [[".controller.js"], ["."]],
 	                [[".directive.js"], ["."]],
 	                [[".service.js"], ["."]],
+	                [[".js"], ["."]],
 	                [[".css"], ["."]],
 	                [[".less"], ["."]],
 	                [[".template.html"], ["."]],
@@ -17,6 +18,7 @@
 	          [[".controller.js"], ["."]],
 	          [[".directive.js"], ["."]],
 	          [[".service.js"], ["."]],
+	          [[".js"], ["."]],
 	          [[".css"], ["."]],
 	          [[".less"], ["."]],
 	          [[".template.html"], ["."]]
@@ -26,6 +28,7 @@
 	          [[".controller.js"], ["."]],
 	          [[".directive.js"], ["."]],
 	          [[".service.js"], ["."]],
+	          [[".js"], ["."]],
 	          [[".css"], ["."]],
 	          [[".less"], ["."]]
 	],
@@ -34,6 +37,7 @@
 	          [[".controller.js"], ["."]],
 	          [[".directive.js"], ["."]],
 	          [[".service.js"], ["."]],
+	          [[".js"], ["."]],
 	          [[".css"], ["."]],
 	          [[".less"], ["."]]
 	],
