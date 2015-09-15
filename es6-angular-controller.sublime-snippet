@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+class ${1:Name}Controller {
+  constructor(${2:args}) {
+    'ngInject';
+    ${3:code}
+  }
+
+  ${4:aFunction(${5:arg}) {
+    ${6:another code}
+  }}
+}
+
+export default ${1:Name}Controller;
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>es6-angular-controller</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>ES6 Angular Controller</description>
+</snippet>
