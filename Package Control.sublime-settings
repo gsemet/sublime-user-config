@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -39,6 +40,7 @@
 		"DocBlockr",
 		"EasyDiff",
 		"EditorConfig",
+		"ES6-Toolkit",
 		"FastSwitch",
 		"File History",
 		"Focus File on Sidebar",
