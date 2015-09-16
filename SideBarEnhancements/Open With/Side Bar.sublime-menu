@@ -36,6 +36,16 @@
 					"application": "poedit.exe",
 					"extensions": "po"
 				}
+			},
+			{
+				"caption": "gedit",
+				"id": "side-bar-files-open-with-poedit",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+					"application": "gedit",
+					"extensions": "py"
+				}
 			}
 		]
 	}
