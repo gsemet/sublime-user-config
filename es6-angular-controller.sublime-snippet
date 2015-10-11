@@ -19,3 +19,4 @@ export default ${1:Name}Controller;
     <scope>source.js</scope>
     <description>ES6 Angular Controller</description>
 </snippet>
+
