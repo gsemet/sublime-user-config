@@ -82,6 +82,7 @@
 		120
 	],
 	"scroll_past_end": false,
+	"scroll_speed": 0,
 	"sidebar_size_12": false,
 	"sidebar_size_13": true,
 	"sidebar_size_14": false,
@@ -90,6 +91,7 @@
 	"tabs_small": false,
 	"theme": "Flatgrammer.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"tree_animation_enabled": false,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_lines.force_mode": true,
