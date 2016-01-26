@@ -1,0 +1,41 @@
+<snippet>
+    <content><![CDATA[
+from __future__ import absolute_import
+
+import logging
+
+from twisted.internet import defer
+
+from cactus.compat.buildbot import FAILURE
+from cactus.steps.simple_build_step import SimpleBuildStep
+
+
+cactusLog = logging.getLogger(__name__)
+
+
+class ${1:StepName}(SimpleBuildStep):
+
+    """
+    ${8:doc string}
+    """
+
+    name = "${2:step name}"
+    description = "${3:ongoing step...}"
+    descriptionDone = "${4:step finished}"
+
+    @defer.inlineCallbacks
+    def run(self):
+        ${5:yield defer.succeed(0)}
+
+        ${6:if any_reason:
+            self.addLogStdout("error message")
+            defer.returnValue(FAILURE)}
+
+        ${7:self.addLogStdout("doing something...)}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>simple step</tabTrigger>
+    <description>Simple Step Class</description>
+    <scope>source.python</scope>
+</snippet>
+

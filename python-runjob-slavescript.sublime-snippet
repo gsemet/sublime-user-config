@@ -1,0 +1,41 @@
+<snippet>
+    <content><![CDATA[
+from __future__ import absolute_import
+
+import logging
+import sys
+
+from argh import arg
+from argh import expects_obj
+
+
+from slavescripts.arghutils import withArtifactory
+from slavescripts.arghutils import withBuildbot
+from slavescripts.arghutils import withGerrit
+from slavescripts.status.results import SUCCESS
+from slavescripts.utils import register_command
+
+
+logger = logging.getLogger(__name__)
+
+
+@register_command
+${2:@arg('--${3:arg}', action='store', required=True,
+     help='${4:argument description}')}
+${5:@arg('--${6:another-arg}', dest='${7:anoter_arg}', action='store', required=True,
+     help='${8:argument description}')}
+@withArtifactory
+@withBuildbot
+@withGerrit
+@expects_obj
+def ${1:script_name}(args):
+    ${9:# code}
+    sys.exit(SUCCESS)
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>slavescript</tabTrigger>
+    <description>Run-Job Slavecript</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

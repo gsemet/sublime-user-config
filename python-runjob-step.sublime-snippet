@@ -1,0 +1,48 @@
+<snippet>
+    <content><![CDATA[
+from __future__ import absolute_import
+
+import logging
+
+from twisted.internet import defer
+
+from buildbot.status.builder import SUCCESS
+
+from cactus.steps.run_job import RunJobArg
+from cactus.steps.run_job import RunJobSequence
+
+cactusLog = logging.getLogger(__name__)
+
+
+class ${1:StepClassName}(RunJobSequence):
+    name = "${2:Step human readable name}"
+    description = "${3:description}"
+    descriptionDone = "${4:description when done}"
+    default_accepted_results = [SUCCESS]
+    use_buildbot_results_from_rc = True
+
+    ${8:
+    @defer.inlineCallbacks}
+    def addRuntimeCommands(self):
+        args = [}
+        ${9:
+        yield defer.succeed(0)}
+        ${10:# configure the command line here}
+        defer.returnValue([
+            RunJobArg(
+                subcommand='${5:slavescrip-name}',
+                args=args,
+                logfile='${6:log_name}',
+                shell=False,  # don't use shell parsing to avoid mess with --extra_params
+            )])
+
+    ${7:def postExecute(self, res):
+        # filter 'res' if needed
+        return res}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>runjob step</tabTrigger>
+    <description>New Runjob Step</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
