@@ -44,12 +44,12 @@
 	"ignored_packages":
 	[
 		"All Autocomplete",
-		"AutoPEP8",
 		"Anaconda",
 		"AngularJS",
 		"AngularJS (CoffeeScript)",
 		"ApacheConf.tmLanguage",
 		"AutoDocstring",
+		"AutoPEP8",
 		"Autoprefixer",
 		"Base Encoder",
 		"Bash Build System",
@@ -117,6 +117,7 @@
 		"Pretty JSON",
 		"Pretty YAML",
 		"Pylinter",
+		"pythonpep8autoformat",
 		"RAML Syntax Highlighter",
 		"requirementstxt",
 		"RestructuredText",
