@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+class ${1:ClassName}(${2:ParentClass}):
+    '''
+    ${6:document your class here}
+    '''
+    def __init__(self, ${3:pass through argument}${4:, ${5:argument}}):
+        super(${1:ClassName}, self).__init__(${3:pass through argument})
+        self.${5:argument} = ${5:argument}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>class</tabTrigger>
+    <description>New Python Sub-Class</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
