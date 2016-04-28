@@ -15,14 +15,10 @@ class Test${2:NameOfTheTestedStepClass}(CactusBuildStubMixin, CactusTestCase):
     def setUp(self):
         additional_cfg = {}
         return self.createAllStubs(createArtifactory=False,
-                                   createBugzilla=False,
-                                   createIceScrum=False,
                                    additionalCfg=additional_cfg)
 
     def tearDown(self):
         return self.cleanupAllStubs(cleanArtifactory=False,
-                                    cleanBugzilla=False,
-                                    cleanIceScrum=False,
                                     )
 
     def givenStepIsCreated(self):
