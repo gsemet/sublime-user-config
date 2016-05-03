@@ -631,5 +631,6 @@
 	{
 		"keys": ["ctrl+alt+shift+d"],
 		"command": "cycle_through_regions"
-	}
+	},
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" }
 ]
