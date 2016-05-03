@@ -75,6 +75,7 @@
 		"JsFormat",
 		"JSONLint",
 		"LESS",
+		"LineEndings",
 		"LoremIpsum",
 		"Modific",
 		"MultiEditUtils",
