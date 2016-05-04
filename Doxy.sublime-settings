@@ -1,0 +1,24 @@
+{
+    // Default tabs size in documentation block (last value is repeated if needed).
+    // You can use [ 0 ] to treat tabs as spaces (and disable alignment)
+    // CANNOT BE EMPTY.
+    //
+    // example with value [ 13, 6, 8, 8, 8, 8 ]
+    //    /**
+    //     * @param[in]  a     { parameter_description }
+    //     * 123456789012      12345678...and continue because there is no more tab
+    //     *             123456
+    //     */
+    "preferred_tabs_sizes": [ 8, 6, 8, 8, 8, 8 ],
+
+    // "preferred_line_length" (the value used on wrap command).
+    //
+    // There is no DoxyDoxygen specific parameter.
+    //
+    // The value considered is the first value of the SublimeText "rulers"
+    // parameter (default: 80 if empty).
+
+    // line width may be reduced to "max_line_reducing" characters to attempt to
+    // respect the rulers
+    "max_line_reducing": 12
+}
