@@ -12,6 +12,7 @@
 		"AngularJS (CoffeeScript)",
 		"ApacheConf.tmLanguage",
 		"AutoDocstring",
+		"AutoFileName",
 		"AutoPEP8",
 		"Autoprefixer",
 		"Base Encoder",
