@@ -164,6 +164,7 @@
 	],
 	"scroll_past_end": false,
 	"scroll_speed": 0,
+	"shift_tab_unindent": true,
 	"sidebar_size_12": false,
 	"sidebar_size_13": true,
 	"sidebar_size_14": false,
