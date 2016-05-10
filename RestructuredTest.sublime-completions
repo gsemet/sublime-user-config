@@ -20,5 +20,6 @@
         { "trigger": "linkd", "contents": ".. _${1:link text (space allowed, use linkr to reference it)}: ${2:http://url/to/link}" },
         { "trigger": "linkr", "contents": "`${1:link text (space allowed, use linkd to define it)}`_" },
         { "trigger": "linki", "contents": "`${1:Link text} <${2:http://url/to/link}>`_" },
+        { "trigger": "todo", "contents": ".. todo:: ${1:TBD}" }
     ]
 }
