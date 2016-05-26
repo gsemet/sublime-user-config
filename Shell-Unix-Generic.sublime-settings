@@ -1,8 +1,9 @@
 {
-    "extensions":
-    [
-        "sh",
-        "bash",
-        "zsh",
-    ]
+	"extensions":
+	[
+		"sh",
+		"bash",
+		"zsh",
+		".zshrc"
+	]
 }
