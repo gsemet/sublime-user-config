@@ -632,5 +632,13 @@
 		"keys": ["ctrl+alt+shift+d"],
 		"command": "cycle_through_regions"
 	},
-	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" }
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+    {
+        "keys": ["shift+f1"],
+        "command": "zeal_search_selection"
+    },
+    {
+        "keys": ["alt+shift+f1"],
+        "command": "zeal_search"
+    }
 ]
