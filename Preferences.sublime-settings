@@ -44,6 +44,7 @@
 	"ignored_packages":
 	[
 		"All Autocomplete",
+		"Anaconda",
 		"AngularJS",
 		"AngularJS (CoffeeScript)",
 		"ApacheConf.tmLanguage",
@@ -60,6 +61,7 @@
 		"CoffeeCompile",
 		"CoffeeComplete Plus (Autocompletion)",
 		"CoffeeScriptHaml",
+		"Color Highlighter",
 		"Color Scheme - Nice Blue Soda",
 		"Colorsublime",
 		"Column Select",
@@ -70,10 +72,12 @@
 		"CTags",
 		"Cython",
 		"EasyDiff",
+		"EditorConfig",
 		"ES6-Toolkit",
 		"File History",
 		"Focus File on Sidebar",
 		"Gist",
+		"Git",
 		"Git GUI Clients",
 		"GitGutter",
 		"GitGutter-Edge",
@@ -145,7 +149,8 @@
 		"URLEncode",
 		"Vanilla lodash Snippets",
 		"Vintage",
-		"WordHighlight"
+		"WordHighlight",
+		"Zen Tabs"
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
