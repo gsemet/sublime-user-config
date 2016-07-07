@@ -4,6 +4,8 @@
 name: Bitbake
 file_extensions:
   - bb
+  - bbclass
+  - bbappend
 scope: source.bitbake
 variables:
   ident: '^[A-Za-z_][A-Za-z_0-9]*'
@@ -16,12 +18,12 @@ contexts:
       push: double_quoted_string
 
     # Comments begin with a '//' and finish at the end of the line
-    - match: '//'
+    - match: '#'
       scope: punctuation.definition.comment
       push: line_comment
 
-    - match: '\b{{ident}}\b'
-      scope: variable
+    - match: '\b{{ident}}\b\s*(=|\+=|\:=|\.=|\?=)'
+      scope: keyword.other.definition
 
     - match: "{"
       push: brackets
@@ -33,7 +35,7 @@ contexts:
     # strings in YAML. When using single quoted strings, only single quotes
     # need to be escaped: this is done by using two single quotes next to each
     # other.
-    - match: '\b(inherit)\b'
+    - match: '^\s*\b(inherit|def|return|if|for|else|fi|echo|install|cd|sed)\b'
       scope: keyword.control
 
     # Numbers

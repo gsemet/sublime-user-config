@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: Conf
+file_extensions:
+  - conf
+scope: source.conf
+contexts:
+  main:
+    - match: (#|;|\*)
+      captures:
+        0: punctuation.definition.comment.ini
+      push:
+        - meta_scope: comment.line.number-sign.ini
+        - match: \n
+          pop: true
+    - match: '\b([a-zA-Z0-9_.-]+)\b\s*(=|\+=|\:=|\.=|\?=)'
+      captures:
+        1: keyword.other.definition.ini
+        2: punctuation.separator.key-value.ini
+    - match: '^(\[)(.*?)(\])'
+      scope: entity.name.section.group-title.ini
+      captures:
+        1: punctuation.definition.entity.ini
+        3: punctuation.definition.entity.ini
+    - match: '"'
+      captures:
+        0: punctuation.definition.string.begin.ini
+      push:
+        - meta_scope: string.quoted.double.ini
+        - match: '"'
+          captures:
+            0: punctuation.definition.string.end.ini
+          pop: true
