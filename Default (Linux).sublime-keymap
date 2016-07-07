@@ -255,14 +255,15 @@
 		"keys": ["alt+q"],
 		"command": "wrap_lines_plus"
 	},
+    // {
+    //     "keys": ["f4"],
+    //     "command": "anaconda_goto"
+    // },
+    { "keys": ["f4"], "command": "goto_definition" },
 	// {
 	// 	"keys": ["f4"],
 	// 	"command": "python_goto_definition"
 	// },
-	{
-		"keys": ["f4"],
-		"command": "anaconda_goto"
-	},
 	{
 		"keys": ["shift+f4"],
 		"command": "anaconda_find_usages"

@@ -104,6 +104,7 @@
 		"Nodejs",
 		"Open URL",
 		"PackageResourceViewer",
+		"PersistentRegexHighlight",
 		"Plugin Debugger",
 		"Pylinter",
 		"pythonpep8autoformat",
