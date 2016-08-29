@@ -93,6 +93,7 @@
 		"Pylinter",
 		"Python Fix Imports",
 		"Python PEP8 Autoformat",
+		"PyYapf Python Formatter",
 		"RAML Syntax Highlighter",
 		"requirementstxt",
 		"Restructured Text (RST) Snippets",
