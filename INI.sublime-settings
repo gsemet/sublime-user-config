@@ -1,7 +1,6 @@
 {
 	"extensions":
 	[
-		"pylintrc",
-		"pep8rc"
+		"ini"
 	]
 }
