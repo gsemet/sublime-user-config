@@ -45,7 +45,6 @@
 	"ignored_packages":
 	[
 		"All Autocomplete",
-		"Anaconda",
 		"AngularJS",
 		"AngularJS (CoffeeScript)",
 		"ApacheConf.tmLanguage",

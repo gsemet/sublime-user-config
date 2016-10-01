@@ -204,7 +204,7 @@
 
         **** WARNING ****
     */
-    "use_pylint": true,
+    "use_pylint": false,
 
     // Set this to false to turn pep8 checking off completely
     "pep8": true,
