@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+# -*- coding: utf-8 -*-
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>utf8</tabTrigger>
+    <description>UTF-8 tag</description>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
