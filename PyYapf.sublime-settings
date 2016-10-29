@@ -105,6 +105,8 @@
             // The number of spaces required before a trailing comment.
             "SPACES_BEFORE_COMMENT": 2,
 
+            "SPLIT_BEFORE_FIRST_ARGUMENT": false,
+
             // Set to True to prefer splitting before &, | or ^ rather than after.
             "SPLIT_BEFORE_BITWISE_OPERATOR": true,
 
