@@ -7,7 +7,26 @@
 			"selector": "source.python"
 		}
 	],
-	"color_scheme": "Packages/User/Flatgrammer (SL) (SublimePythonIDE).tmTheme",
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"buildbot/**",
+		"src/buildbot/**"
+	],
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/Material-Theme-Darker.tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
@@ -34,11 +53,12 @@
 		"env3",
 		"RemoteSystemsTempFiles"
 	],
+	"font_face": "Source Code Pro",
 	"font_options":
 	[
-		"no_bold",
-		"subpixel_antialias"
+		"gray_antialias"
 	],
+	"font_size": 11,
 	"gpu_window_buffer": "true",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -52,7 +72,6 @@
 		"Autoprefixer",
 		"Base Encoder",
 		"Bash Build System",
-		"Better CoffeeScript",
 		"Bootstrap 3 Jade Snippets",
 		"Bootstrap 3 Snippets",
 		"Calculate",
@@ -107,7 +126,6 @@
 		"pythonpep8autoformat",
 		"requirementstxt",
 		"RestructuredText",
-		"Rust",
 		"RustAutoComplete",
 		"SassBeautify",
 		"Search Stack Overflow",
@@ -124,7 +142,6 @@
 		"SublimeGerrit",
 		"sublimelint",
 		"SublimeLinter",
-		"SublimeLinter-coffee",
 		"SublimeLinter-contrib-rustc",
 		"SublimeLinter-cppcheck",
 		"SublimeLinter-jshint",
@@ -152,8 +169,16 @@
 		"Zen Tabs"
 	],
 	"index_files": false,
-	"line_padding_bottom": 0,
-	"line_padding_top": 0,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"material_theme_arrow_folders": true,
+	"material_theme_bright_scrollbars": true,
+	"material_theme_bullet_tree_indicator": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_contrast_mode": true,
+	"material_theme_panel_separator": true,
+	"material_theme_tabs_separator": true,
+	"material_theme_tree_headings": true,
 	"preview_on_click": false,
 	"quick_panel_small": true,
 	"rulers":
@@ -170,7 +195,7 @@
 	"tab_height_short": true,
 	"tab_size": 4,
 	"tabs_small": false,
-	"theme": "Flatgrammer.sublime-theme",
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
 	"trim_automatic_white_space": true,
